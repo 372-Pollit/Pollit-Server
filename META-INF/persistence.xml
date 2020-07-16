@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence" version="2.0">
+
+    <persistence-unit name="persistenceUnit">
+        <class>com.pollit.server.model.Admin</class>
+        <class>com.pollit.server.model.Belongs</class>
+        <class>com.pollit.server.model.BlockedUser</class>
+        <class>com.pollit.server.model.Category</class>
+        <class>com.pollit.server.model.Comment</class>
+        <class>com.pollit.server.model.DeletedComment</class>
+        <class>com.pollit.server.model.DeletedSurvey</class>
+        <class>com.pollit.server.model.Follows</class>
+        <class>com.pollit.server.model.Moderator</class>
+        <class>com.pollit.server.model.SentMessage</class>
+        <class>com.pollit.server.model.Subs</class>
+        <class>com.pollit.server.model.Survey</class>
+        <class>com.pollit.server.model.SurveyOption</class>
+        <class>com.pollit.server.model.SurveyTag</class>
+        <class>com.pollit.server.model.User</class>
+        <class>com.pollit.server.model.Vote</class>
+        <properties>
+            <property name="toplink.jdbc.url" value="jdbc:postgresql://localhost:5432/pollit"/>
+            <property name="toplink.jdbc.driver" value="org.postgresql.Driver"/>
+            <property name="hibernate.connection.url" value="jdbc:postgresql://localhost:5432/pollit"/>
+            <property name="hibernate.connection.driver_class" value="org.postgresql.Driver"/>
+            <property name="openjpa.ConnectionURL" value="jdbc:postgresql://localhost:5432/pollit"/>
+            <property name="openjpa.ConnectionDriverName" value="org.postgresql.Driver"/>
+            <property name="eclipselink.jdbc.url" value="jdbc:postgresql://localhost:5432/pollit"/>
+            <property name="eclipselink.jdbc.driver" value="org.postgresql.Driver"/>
+        </properties>
+    </persistence-unit>
+</persistence>
