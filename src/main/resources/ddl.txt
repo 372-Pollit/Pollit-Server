@@ -85,7 +85,7 @@ alter table moderator owner to postgres;
 
 create table admin
 (
-	user_id integer not null
+	user_id serial not null
 		constraint admin_pk
 			primary key
 		constraint admin_user
