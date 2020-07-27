@@ -1,0 +1,3 @@
+INSERT INTO public.admin (user_id, tck_no, phone_number, address, start_date) VALUES (1, '16073084830', '05386352254', 'Ankara, Sçğütözü caddesi, Söğütözü mahalles, Çankaya/Ankara', '2020-07-27 12:30:50.559116');
+INSERT INTO public.admin (user_id, tck_no, phone_number, address, start_date) VALUES (2, '11100094878', '09009005050', 'Ankara, Söğütözü', '2020-07-27 12:36:11.877153');
+INSERT INTO public.admin (user_id, tck_no, phone_number, address, start_date) VALUES (3, '2220005656', '05005004040', 'Ankara, Söğütözü', '2020-07-27 12:37:23.577588');

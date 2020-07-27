@@ -1,0 +1,10 @@
+INSERT INTO public.moderator (user_id, start_date) VALUES (1, '2020-07-10 04:49:16.000000');
+INSERT INTO public.moderator (user_id, start_date) VALUES (2, '2020-07-08 21:39:42.000000');
+INSERT INTO public.moderator (user_id, start_date) VALUES (3, '2020-07-01 03:11:39.000000');
+INSERT INTO public.moderator (user_id, start_date) VALUES (4, '2020-07-15 02:03:26.000000');
+INSERT INTO public.moderator (user_id, start_date) VALUES (5, '2020-07-16 19:25:04.000000');
+INSERT INTO public.moderator (user_id, start_date) VALUES (6, '2020-07-10 00:18:58.000000');
+INSERT INTO public.moderator (user_id, start_date) VALUES (7, '2020-07-12 15:20:37.000000');
+INSERT INTO public.moderator (user_id, start_date) VALUES (8, '2020-07-17 10:43:48.000000');
+INSERT INTO public.moderator (user_id, start_date) VALUES (9, '2020-07-01 10:02:51.000000');
+INSERT INTO public.moderator (user_id, start_date) VALUES (10, '2020-07-04 23:49:19.000000');

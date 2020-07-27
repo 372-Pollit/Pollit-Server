@@ -1,0 +1,10 @@
+INSERT INTO public.category (id, name) VALUES (1, 'Technology');
+INSERT INTO public.category (id, name) VALUES (2, 'Politics');
+INSERT INTO public.category (id, name) VALUES (3, 'Economy');
+INSERT INTO public.category (id, name) VALUES (4, 'Education');
+INSERT INTO public.category (id, name) VALUES (5, 'Literature');
+INSERT INTO public.category (id, name) VALUES (6, 'Health');
+INSERT INTO public.category (id, name) VALUES (7, 'Nature');
+INSERT INTO public.category (id, name) VALUES (8, 'Sport');
+INSERT INTO public.category (id, name) VALUES (9, 'Law');
+INSERT INTO public.category (id, name) VALUES (10, 'Fashion');
