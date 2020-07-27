@@ -1,5 +1,8 @@
-create database pollit
-	with owner postgres;
+create schema public;
+
+comment on schema public is 'standard public schema';
+
+alter schema public owner to postgres;
 
 create table "user"
 (
@@ -40,7 +43,6 @@ create table sent_message
 		constraint sent_message_user_id_fk
 			references "user",
 	content varchar(1000),
-	topic varchar(100),
 	date timestamp default now() not null
 );
 
@@ -90,7 +92,7 @@ create table admin
 			primary key
 		constraint admin_user
 			references "user",
-	tck_no integer not null,
+	tck_no varchar(11) not null,
 	phone_number varchar(50),
 	address varchar(200),
 	start_date timestamp default now() not null
@@ -121,23 +123,6 @@ alter table survey owner to postgres;
 create unique index survey_id_uindex
 	on survey (id);
 
-create table survey_option
-(
-	id serial not null
-		constraint survey_option_pk
-			primary key,
-	option varchar(100) not null,
-	survey_id integer not null
-);
-
-alter table survey_option owner to postgres;
-
-create unique index survey_option_id_uindex
-	on survey_option (id);
-
-create unique index survey_option_option_survey_id_uindex
-	on survey_option (option, survey_id);
-
 create table survey_tag
 (
 	id serial not null
@@ -155,31 +140,6 @@ create unique index survey_tag_id_uindex
 create unique index survey_tag_survey_id_tag_uindex
 	on survey_tag (survey_id, tag);
 
-create table vote
-(
-	id serial not null
-		constraint vote_pk
-			primary key,
-	survey_id integer not null
-		constraint survey
-			references survey,
-	user_id integer not null
-		constraint "user"
-			references "user",
-	option_id integer not null
-		constraint option
-			references survey_option,
-	date timestamp default now() not null
-);
-
-alter table vote owner to postgres;
-
-create unique index vote_id_uindex
-	on vote (id);
-
-create unique index vote_survey_id_user_id_uindex
-	on vote (survey_id, user_id);
-
 create table category
 (
 	id serial not null
@@ -192,27 +152,6 @@ alter table category owner to postgres;
 
 create unique index category_id_uindex
 	on category (id);
-
-create table belongs
-(
-	id serial not null
-		constraint belongs_pk
-			primary key,
-	category_id integer not null
-		constraint category
-			references category,
-	survey_id integer not null
-		constraint survey
-			references survey
-);
-
-alter table belongs owner to postgres;
-
-create unique index belongs_category_id_survey_id_uindex
-	on belongs (category_id, survey_id);
-
-create unique index belongs_id_uindex
-	on belongs (id);
 
 create table comment
 (
@@ -273,7 +212,8 @@ create table deleted_survey
 		constraint survey
 			references survey,
 	date timestamp default now() not null,
-	cause varchar(100) default 'This survey is deleted because of violating the community rules.'::character varying not null
+	cause varchar(100) default 'This survey is deleted because of violating the community rules.'::character varying not null,
+	is_deleted boolean default true not null
 );
 
 alter table deleted_survey owner to postgres;
@@ -293,7 +233,8 @@ create table deleted_comment
 		constraint comment
 			references comment,
 	date timestamp default now() not null,
-	cause varchar(200) default 'This comment is deleted because of violating the community rules.'::character varying not null
+	cause varchar(200) default 'This comment is deleted because of violating the community rules.'::character varying not null,
+	is_deleted boolean default true not null
 );
 
 alter table deleted_comment owner to postgres;
@@ -316,7 +257,8 @@ create table blocked_user
 		constraint "user"
 			references "user",
 	date timestamp default now() not null,
-	cause varchar(200) default 'This user is blocked because of violating the community rules'::character varying not null
+	cause varchar(200) default 'This user is blocked because of violating the community rules'::character varying not null,
+	is_blocked boolean default true not null
 );
 
 alter table blocked_user owner to postgres;
@@ -326,4 +268,52 @@ create unique index blocked_user_id_uindex
 
 create unique index blocked_user_user_id_date_uindex
 	on blocked_user (user_id, date);
+
+create table survey_option
+(
+	id serial not null
+		constraint survey_option_pk
+			primary key,
+	option varchar(500) not null,
+	survey_id integer not null
+);
+
+alter table survey_option owner to postgres;
+
+create table vote
+(
+	id serial not null
+		constraint vote_pk
+			primary key,
+	survey_id integer not null
+		constraint survey
+			references survey,
+	user_id integer not null
+		constraint "user"
+			references "user",
+	option_id integer not null
+		constraint option
+			references survey_option,
+	date timestamp default now() not null
+);
+
+alter table vote owner to postgres;
+
+create table belongs
+(
+	id serial not null
+		constraint belongs_pk
+			primary key,
+	category_id integer not null
+		constraint category
+			references category,
+	survey_id integer not null
+		constraint survey
+			references survey
+);
+
+alter table belongs owner to postgres;
+
+create unique index belongs_category_id_survey_id_uindex
+	on belongs (category_id, survey_id);
 
