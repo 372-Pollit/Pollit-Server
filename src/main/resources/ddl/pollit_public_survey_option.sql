@@ -31,7 +31,6 @@ INSERT INTO public.survey_option (id, option, survey_id) VALUES (30, 'Cum sociis
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (31, 'In eleifend quam a odio.', 191);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (32, 'Pellentesque at nulla.', 89);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (33, 'Nunc rhoncus dui vel sem.', 13);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (34, 'Curabitur convallis.', 138);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (35, 'Duis aliquam convallis nunc.', 389);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (36, 'Maecenas ut massa quis augue luctus tincidunt.', 73);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (37, 'Cras pellentesque volutpat dui.', 286);
@@ -39,13 +38,11 @@ INSERT INTO public.survey_option (id, option, survey_id) VALUES (38, 'Aenean sit
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (39, 'Maecenas tincidunt lacus at velit.', 369);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (40, 'Nulla facilisi.', 84);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (41, 'In eleifend quam a odio.', 142);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (42, 'Nam nulla.', 267);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (43, 'Mauris sit amet eros.', 351);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (44, 'Cras pellentesque volutpat dui.', 264);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (45, 'Fusce consequat.', 80);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (46, 'Aliquam quis turpis eget elit sodales scelerisque.', 192);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (47, 'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi.', 318);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (48, 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit.', 76);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (49, 'Nam nulla.', 192);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (50, 'Praesent blandit.', 184);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (51, 'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio.', 369);
@@ -61,7 +58,6 @@ INSERT INTO public.survey_option (id, option, survey_id) VALUES (60, 'Donec vita
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (61, 'In hac habitasse platea dictumst.', 214);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (62, 'Aliquam sit amet diam in magna bibendum imperdiet.', 72);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (63, 'Phasellus id sapien in sapien iaculis congue.', 446);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (64, 'Donec quis orci eget orci vehicula condimentum.', 285);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (65, 'Vestibulum rutrum rutrum neque.', 49);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (66, 'Donec quis orci eget orci vehicula condimentum.', 127);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (67, 'Morbi porttitor lorem id ligula.', 493);
@@ -72,7 +68,6 @@ INSERT INTO public.survey_option (id, option, survey_id) VALUES (71, 'Nulla moll
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (72, 'Pellentesque viverra pede ac diam.', 242);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (73, 'Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci.', 395);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (74, 'Mauris lacinia sapien quis libero.', 283);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (75, 'Suspendisse potenti.', 132);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (76, 'Morbi ut odio.', 30);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (77, 'Pellentesque viverra pede ac diam.', 459);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (78, 'Phasellus in felis.', 120);
@@ -90,7 +85,6 @@ INSERT INTO public.survey_option (id, option, survey_id) VALUES (89, 'Vestibulum
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (90, 'Vestibulum sed magna at nunc commodo placerat.', 51);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (91, 'Proin at turpis a pede posuere nonummy.', 160);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (92, 'Suspendisse accumsan tortor quis turpis.', 206);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (93, 'Curabitur gravida nisi at nibh.', 184);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (94, 'Donec vitae nisi.', 343);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (95, 'Phasellus id sapien in sapien iaculis congue.', 158);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (96, 'Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.', 151);
@@ -103,7 +97,6 @@ INSERT INTO public.survey_option (id, option, survey_id) VALUES (102, 'Nunc puru
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (103, 'Nunc rhoncus dui vel sem.', 319);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (104, 'Vestibulum sed magna at nunc commodo placerat.', 385);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (105, 'Mauris ullamcorper purus sit amet nulla.', 147);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (106, 'Suspendisse potenti.', 386);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (107, 'Sed sagittis.', 181);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (108, 'Suspendisse accumsan tortor quis turpis.', 301);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (109, 'Pellentesque eget nunc.', 19);
@@ -116,7 +109,6 @@ INSERT INTO public.survey_option (id, option, survey_id) VALUES (115, 'Quisque i
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (116, 'Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla.', 222);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (117, 'Fusce posuere felis sed lacus.', 8);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (118, 'Vestibulum sed magna at nunc commodo placerat.', 371);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (119, 'Vestibulum rutrum rutrum neque.', 341);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (120, 'Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo.', 434);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (121, 'Curabitur at ipsum ac tellus semper interdum.', 449);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (122, 'Morbi quis tortor id nulla ultrices aliquet.', 172);
@@ -183,12 +175,10 @@ INSERT INTO public.survey_option (id, option, survey_id) VALUES (182, 'Fusce pos
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (183, 'Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla.', 157);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (184, 'Proin interdum mauris non ligula pellentesque ultrices.', 434);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (185, 'Vivamus vestibulum sagittis sapien.', 145);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (186, 'Morbi quis tortor id nulla ultrices aliquet.', 485);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (187, 'Pellentesque eget nunc.', 452);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (188, 'In hac habitasse platea dictumst.', 483);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (189, 'Fusce posuere felis sed lacus.', 413);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (190, 'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis.', 269);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (191, 'Nulla mollis molestie lorem.', 204);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (192, 'Ut at dolor quis odio consequat varius.', 308);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (193, 'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est.', 155);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (194, 'Quisque ut erat.', 423);
@@ -197,7 +187,6 @@ INSERT INTO public.survey_option (id, option, survey_id) VALUES (196, 'Suspendis
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (197, 'Vestibulum rutrum rutrum neque.', 186);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (198, 'Aliquam non mauris.', 466);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (199, 'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc.', 81);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (200, 'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc.', 82);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (508, 'Duis mattis egestas metus.', 7);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (201, 'Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo.', 416);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (202, 'Etiam justo.', 302);
@@ -205,7 +194,6 @@ INSERT INTO public.survey_option (id, option, survey_id) VALUES (203, 'In hac ha
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (204, 'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue.', 315);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (205, 'Proin risus.', 59);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (206, 'Aliquam erat volutpat.', 460);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (207, 'Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo.', 445);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (208, 'Suspendisse ornare consequat lectus.', 437);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (209, 'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi.', 418);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (210, 'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc.', 215);
@@ -217,31 +205,23 @@ INSERT INTO public.survey_option (id, option, survey_id) VALUES (215, 'Quisque a
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (216, 'In blandit ultrices enim.', 270);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (217, 'Vivamus vel nulla eget eros elementum pellentesque.', 303);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (218, 'Integer ac neque.', 408);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (219, 'Duis bibendum.', 469);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (220, 'In eleifend quam a odio.', 47);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (221, 'Curabitur gravida nisi at nibh.', 294);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (222, 'In hac habitasse platea dictumst.', 334);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (223, 'Nulla ut erat id mauris vulputate elementum.', 303);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (224, 'Fusce consequat.', 39);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (225, 'Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante.', 121);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (226, 'Suspendisse potenti.', 372);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (227, 'Etiam justo.', 58);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (228, 'Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci.', 101);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (229, 'In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.', 233);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (230, 'Praesent blandit lacinia erat.', 85);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (231, 'In est risus, auctor sed, tristique in, tempus sit amet, sem.', 0);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (232, 'In hac habitasse platea dictumst.', 56);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (233, 'Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.', 321);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (234, 'In hac habitasse platea dictumst.', 0);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (235, 'Donec vitae nisi.', 70);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (236, 'Aliquam sit amet diam in magna bibendum imperdiet.', 425);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (237, 'Ut at dolor quis odio consequat varius.', 15);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (238, 'Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.', 488);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (239, 'Vivamus in felis eu sapien cursus vestibulum.', 31);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (240, 'Nunc purus.', 44);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (241, 'Nullam varius.', 297);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (242, 'Quisque id justo sit amet sapien dignissim vestibulum.', 267);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (243, 'In hac habitasse platea dictumst.', 296);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (244, 'Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.', 18);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (245, 'Nulla tellus.', 184);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (246, 'In sagittis dui vel nisl.', 125);
@@ -249,7 +229,6 @@ INSERT INTO public.survey_option (id, option, survey_id) VALUES (247, 'Praesent 
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (248, 'In congue.', 348);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (249, 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.', 396);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (250, 'Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.', 466);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (251, 'In hac habitasse platea dictumst.', 77);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (252, 'Duis consequat dui nec nisi volutpat eleifend.', 28);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (253, 'Morbi quis tortor id nulla ultrices aliquet.', 383);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (254, 'In hac habitasse platea dictumst.', 200);
@@ -259,7 +238,6 @@ INSERT INTO public.survey_option (id, option, survey_id) VALUES (257, 'In tempor
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (258, 'In hac habitasse platea dictumst.', 360);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (259, 'Aenean lectus.', 428);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (260, 'Ut tellus.', 320);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (261, 'Praesent id massa id nisl venenatis lacinia.', 459);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (262, 'Nullam varius.', 76);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (263, 'Donec ut mauris eget massa tempor convallis.', 22);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (264, 'Maecenas tincidunt lacus at velit.', 280);
@@ -296,7 +274,6 @@ INSERT INTO public.survey_option (id, option, survey_id) VALUES (294, 'Integer a
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (295, 'Morbi non quam nec dui luctus rutrum.', 210);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (296, 'Vivamus vel nulla eget eros elementum pellentesque.', 177);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (297, 'Fusce posuere felis sed lacus.', 291);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (298, 'Donec ut dolor.', 0);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (509, 'Nullam varius.', 176);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (299, 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit.', 489);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (300, 'Pellentesque at nulla.', 448);
@@ -337,9 +314,7 @@ INSERT INTO public.survey_option (id, option, survey_id) VALUES (334, 'Nullam si
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (335, 'Fusce posuere felis sed lacus.', 457);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (336, 'Fusce consequat.', 110);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (337, 'Proin interdum mauris non ligula pellentesque ultrices.', 156);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (338, 'Mauris sit amet eros.', 347);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (339, 'Ut tellus.', 466);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (340, 'Nulla ac enim.', 280);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (341, 'Nullam porttitor lacus at turpis.', 243);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (342, 'In est risus, auctor sed, tristique in, tempus sit amet, sem.', 49);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (343, 'Praesent blandit.', 23);
@@ -352,7 +327,6 @@ INSERT INTO public.survey_option (id, option, survey_id) VALUES (349, 'Nam dui.'
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (350, 'Aenean auctor gravida sem.', 435);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (351, 'Nullam molestie nibh in lectus.', 95);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (352, 'Nunc nisl.', 273);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (353, 'In est risus, auctor sed, tristique in, tempus sit amet, sem.', 243);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (354, 'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio.', 238);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (355, 'Duis consequat dui nec nisi volutpat eleifend.', 334);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (356, 'Donec vitae nisi.', 199);
@@ -373,12 +347,10 @@ INSERT INTO public.survey_option (id, option, survey_id) VALUES (370, 'Nam trist
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (371, 'Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci.', 187);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (372, 'Morbi porttitor lorem id ligula.', 298);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (373, 'Integer non velit.', 477);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (374, 'Nulla mollis molestie lorem.', 204);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (375, 'Sed sagittis.', 58);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (376, 'In hac habitasse platea dictumst.', 257);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (377, 'Integer ac neque.', 29);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (378, 'Aliquam quis turpis eget elit sodales scelerisque.', 94);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (379, 'Ut at dolor quis odio consequat varius.', 15);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (380, 'Morbi a ipsum.', 292);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (381, 'Nulla suscipit ligula in lacus.', 346);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (382, 'Nulla tempus.', 280);
@@ -452,7 +424,6 @@ INSERT INTO public.survey_option (id, option, survey_id) VALUES (449, 'Nulla tel
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (450, 'Nulla facilisi.', 51);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (451, 'Morbi a ipsum.', 43);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (452, 'Vivamus vel nulla eget eros elementum pellentesque.', 331);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (453, 'Nullam sit amet turpis elementum ligula vehicula consequat.', 214);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (454, 'Mauris sit amet eros.', 12);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (455, 'Ut at dolor quis odio consequat varius.', 294);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (456, 'Duis aliquam convallis nunc.', 417);
@@ -460,7 +431,6 @@ INSERT INTO public.survey_option (id, option, survey_id) VALUES (457, 'Suspendis
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (458, 'Cras pellentesque volutpat dui.', 221);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (459, 'Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo.', 308);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (460, 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit.', 198);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (461, 'Donec quis orci eget orci vehicula condimentum.', 285);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (462, 'Curabitur convallis.', 335);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (463, 'Morbi non quam nec dui luctus rutrum.', 252);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (464, 'Vivamus vestibulum sagittis sapien.', 328);
@@ -469,7 +439,6 @@ INSERT INTO public.survey_option (id, option, survey_id) VALUES (466, 'Morbi ut 
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (467, 'Aenean fermentum.', 163);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (468, 'Aenean lectus.', 21);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (469, 'Curabitur at ipsum ac tellus semper interdum.', 107);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (470, 'In quis justo.', 459);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (471, 'Nulla ac enim.', 206);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (472, 'Fusce posuere felis sed lacus.', 107);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (473, 'Pellentesque viverra pede ac diam.', 367);
@@ -502,7 +471,6 @@ INSERT INTO public.survey_option (id, option, survey_id) VALUES (499, 'Quisque i
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (500, 'Etiam faucibus cursus urna.', 341);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (501, 'In est risus, auctor sed, tristique in, tempus sit amet, sem.', 321);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (502, 'Nam tristique tortor eu pede.', 386);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (503, 'In hac habitasse platea dictumst.', 77);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (504, 'Ut tellus.', 144);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (505, 'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam.', 324);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (506, 'Suspendisse potenti.', 101);
@@ -518,7 +486,6 @@ INSERT INTO public.survey_option (id, option, survey_id) VALUES (517, 'Morbi odi
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (518, 'Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.', 229);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (519, 'Integer ac neque.', 193);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (520, 'Suspendisse accumsan tortor quis turpis.', 180);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (521, 'Mauris sit amet eros.', 86);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (522, 'Fusce consequat.', 254);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (523, 'Morbi non lectus.', 141);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (524, 'Praesent lectus.', 279);
@@ -555,7 +522,6 @@ INSERT INTO public.survey_option (id, option, survey_id) VALUES (554, 'Aenean le
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (555, 'Suspendisse potenti.', 173);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (556, 'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc.', 319);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (557, 'Vivamus tortor.', 294);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (558, 'Vestibulum ac est lacinia nisi venenatis tristique.', 437);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (559, 'Pellentesque at nulla.', 427);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (560, 'Nunc rhoncus dui vel sem.', 29);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (561, 'Quisque id justo sit amet sapien dignissim vestibulum.', 414);
@@ -574,7 +540,6 @@ INSERT INTO public.survey_option (id, option, survey_id) VALUES (573, 'Pellentes
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (574, 'Suspendisse ornare consequat lectus.', 474);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (575, 'Nullam sit amet turpis elementum ligula vehicula consequat.', 450);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (576, 'Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.', 303);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (577, 'Nulla ac enim.', 292);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (578, 'Suspendisse potenti.', 444);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (579, 'Suspendisse potenti.', 92);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (580, 'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi.', 417);
@@ -582,7 +547,6 @@ INSERT INTO public.survey_option (id, option, survey_id) VALUES (581, 'Donec dia
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (582, 'Mauris lacinia sapien quis libero.', 430);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (583, 'Integer tincidunt ante vel ipsum.', 115);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (584, 'Maecenas tincidunt lacus at velit.', 458);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (585, 'In hac habitasse platea dictumst.', 296);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (586, 'Maecenas ut massa quis augue luctus tincidunt.', 236);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (587, 'Suspendisse potenti.', 467);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (588, 'Maecenas pulvinar lobortis est.', 168);
@@ -673,7 +637,6 @@ INSERT INTO public.survey_option (id, option, survey_id) VALUES (672, 'Nullam mo
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (673, 'Proin eu mi.', 207);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (674, 'Integer a nibh.', 304);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (675, 'In quis justo.', 131);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (676, 'Sed sagittis.', 30);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (677, 'Etiam vel augue.', 344);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (678, 'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue.', 377);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (679, 'In est risus, auctor sed, tristique in, tempus sit amet, sem.', 476);
@@ -727,12 +690,9 @@ INSERT INTO public.survey_option (id, option, survey_id) VALUES (726, 'Morbi vel
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (727, 'Fusce posuere felis sed lacus.', 125);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (728, 'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est.', 179);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (729, 'Nunc rhoncus dui vel sem.', 79);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (730, 'Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.', 345);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (731, 'Suspendisse potenti.', 385);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (732, 'Nullam sit amet turpis elementum ligula vehicula consequat.', 438);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (733, 'Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci.', 271);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (734, 'Vestibulum rutrum rutrum neque.', 303);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (735, 'In quis justo.', 462);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (736, 'Nunc rhoncus dui vel sem.', 346);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (737, 'Aliquam non mauris.', 202);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (738, 'Nulla ac enim.', 369);
@@ -794,7 +754,6 @@ INSERT INTO public.survey_option (id, option, survey_id) VALUES (793, 'Morbi sem
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (794, 'Integer a nibh.', 481);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (795, 'Suspendisse potenti.', 413);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (796, 'In blandit ultrices enim.', 200);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (797, 'Suspendisse potenti.', 434);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (798, 'Fusce consequat.', 488);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (799, 'Praesent lectus.', 259);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (800, 'Pellentesque at nulla.', 248);
@@ -834,14 +793,12 @@ INSERT INTO public.survey_option (id, option, survey_id) VALUES (833, 'Cum socii
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (834, 'Etiam faucibus cursus urna.', 235);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (835, 'Aenean auctor gravida sem.', 450);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (836, 'Pellentesque at nulla.', 412);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (837, 'Praesent id massa id nisl venenatis lacinia.', 389);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (838, 'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam.', 252);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (839, 'Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.', 236);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (840, 'Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo.', 251);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (841, 'Aenean sit amet justo.', 267);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (842, 'Morbi non lectus.', 397);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (843, 'Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci.', 308);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (844, 'Proin leo odio, porttitor id, consequat in, consequat ut, nulla.', 219);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (845, 'Cras in purus eu magna vulputate luctus.', 110);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (846, 'Duis aliquam convallis nunc.', 437);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (847, 'Curabitur convallis.', 463);
@@ -856,7 +813,6 @@ INSERT INTO public.survey_option (id, option, survey_id) VALUES (855, 'Nulla mol
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (856, 'Cras pellentesque volutpat dui.', 498);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (857, 'Pellentesque at nulla.', 67);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (858, 'Nulla tempus.', 8);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (859, 'Praesent id massa id nisl venenatis lacinia.', 459);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (860, 'Suspendisse potenti.', 18);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (861, 'Nullam porttitor lacus at turpis.', 475);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (862, 'Integer a nibh.', 420);
@@ -921,7 +877,6 @@ INSERT INTO public.survey_option (id, option, survey_id) VALUES (920, 'Vestibulu
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (921, 'Aliquam non mauris.', 456);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (922, 'Aliquam quis turpis eget elit sodales scelerisque.', 113);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (923, 'Nulla facilisi.', 433);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (924, 'Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla.', 127);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (925, 'Integer ac neque.', 207);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (926, 'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc.', 460);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (927, 'Aliquam non mauris.', 15);
@@ -930,7 +885,6 @@ INSERT INTO public.survey_option (id, option, survey_id) VALUES (929, 'Nunc nisl
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (930, 'Praesent id massa id nisl venenatis lacinia.', 313);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (931, 'Mauris lacinia sapien quis libero.', 125);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (932, 'Nulla nisl.', 8);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (933, 'Morbi a ipsum.', 92);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (934, 'Fusce posuere felis sed lacus.', 73);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (935, 'Etiam pretium iaculis justo.', 369);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (936, 'Vestibulum rutrum rutrum neque.', 311);
@@ -981,8 +935,6 @@ INSERT INTO public.survey_option (id, option, survey_id) VALUES (980, 'Donec odi
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (981, 'Nulla facilisi.', 301);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (982, 'Morbi non lectus.', 277);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (983, 'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis.', 208);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (984, 'Suspendisse accumsan tortor quis turpis.', 35);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (985, 'Nulla ut erat id mauris vulputate elementum.', 370);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (986, 'Cras non velit nec nisi vulputate nonummy.', 207);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (987, 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit.', 405);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (988, 'Nunc rhoncus dui vel sem.', 367);
@@ -1020,7 +972,6 @@ INSERT INTO public.survey_option (id, option, survey_id) VALUES (1019, 'Quisque 
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1020, 'Curabitur in libero ut massa volutpat convallis.', 446);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1021, 'Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl.', 64);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1022, 'Praesent blandit lacinia erat.', 113);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (1023, 'Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla.', 127);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1024, 'Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.', 359);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1025, 'Sed vel enim sit amet nunc viverra dapibus.', 432);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1026, 'Proin eu mi.', 448);
@@ -1041,7 +992,6 @@ INSERT INTO public.survey_option (id, option, survey_id) VALUES (1040, 'Nullam p
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1041, 'Aenean sit amet justo.', 66);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1042, 'In congue.', 51);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1043, 'Maecenas pulvinar lobortis est.', 439);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (1044, 'Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.', 345);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1045, 'Duis consequat dui nec nisi volutpat eleifend.', 113);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1046, 'Morbi non quam nec dui luctus rutrum.', 458);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1047, 'Proin at turpis a pede posuere nonummy.', 184);
@@ -1059,7 +1009,6 @@ INSERT INTO public.survey_option (id, option, survey_id) VALUES (1058, 'Lorem ip
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1059, 'Nam dui.', 480);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1060, 'Aliquam erat volutpat.', 102);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1061, 'Maecenas ut massa quis augue luctus tincidunt.', 485);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (1062, 'Duis bibendum.', 0);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1063, 'Sed ante.', 146);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1064, 'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue.', 495);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1065, 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.', 148);
@@ -1068,7 +1017,6 @@ INSERT INTO public.survey_option (id, option, survey_id) VALUES (1067, 'Suspendi
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1068, 'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue.', 433);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1069, 'Proin risus.', 453);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1070, 'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio.', 437);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (1071, 'Sed sagittis.', 30);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1072, 'Pellentesque viverra pede ac diam.', 334);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1073, 'Donec posuere metus vitae ipsum.', 126);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1074, 'Suspendisse potenti.', 306);
@@ -1119,7 +1067,6 @@ INSERT INTO public.survey_option (id, option, survey_id) VALUES (1118, 'Sed accu
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1119, 'Pellentesque at nulla.', 493);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1120, 'Nullam sit amet turpis elementum ligula vehicula consequat.', 161);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1121, 'Proin leo odio, porttitor id, consequat in, consequat ut, nulla.', 472);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (1122, 'Suspendisse accumsan tortor quis turpis.', 74);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1123, 'Duis bibendum.', 338);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1124, 'In hac habitasse platea dictumst.', 81);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1125, 'Proin risus.', 157);
@@ -1138,12 +1085,10 @@ INSERT INTO public.survey_option (id, option, survey_id) VALUES (1137, 'Pellente
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1138, 'Duis bibendum.', 74);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1139, 'Proin leo odio, porttitor id, consequat in, consequat ut, nulla.', 248);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1140, 'Morbi porttitor lorem id ligula.', 96);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (1141, 'Mauris sit amet eros.', 347);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1142, 'Vestibulum ac est lacinia nisi venenatis tristique.', 490);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1143, 'Morbi a ipsum.', 453);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1144, 'Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla.', 119);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1145, 'Integer tincidunt ante vel ipsum.', 343);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (1146, 'Suspendisse potenti.', 434);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1147, 'Praesent lectus.', 129);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1148, 'Cras non velit nec nisi vulputate nonummy.', 318);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1149, 'Aenean auctor gravida sem.', 280);
@@ -1159,7 +1104,6 @@ INSERT INTO public.survey_option (id, option, survey_id) VALUES (1158, 'Nunc nis
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1159, 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit.', 202);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1160, 'Aenean sit amet justo.', 174);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1161, 'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis.', 135);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (1162, 'Vivamus vel nulla eget eros elementum pellentesque.', 0);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1163, 'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi.', 118);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1164, 'Donec semper sapien a libero.', 220);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1165, 'Vivamus in felis eu sapien cursus vestibulum.', 127);
@@ -1179,7 +1123,6 @@ INSERT INTO public.survey_option (id, option, survey_id) VALUES (1178, 'Lorem ip
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1179, 'Pellentesque at nulla.', 55);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1180, 'Cras non velit nec nisi vulputate nonummy.', 338);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1181, 'Maecenas tincidunt lacus at velit.', 120);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (1182, 'In hac habitasse platea dictumst.', 302);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1183, 'Morbi a ipsum.', 366);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1184, 'Donec semper sapien a libero.', 420);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1185, 'Morbi a ipsum.', 262);
@@ -1208,7 +1151,6 @@ INSERT INTO public.survey_option (id, option, survey_id) VALUES (1207, 'Fusce co
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1208, 'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est.', 296);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1209, 'Curabitur gravida nisi at nibh.', 94);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1210, 'Morbi a ipsum.', 442);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (1211, 'Suspendisse accumsan tortor quis turpis.', 74);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1212, 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit.', 361);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1213, 'Nulla ut erat id mauris vulputate elementum.', 266);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1214, 'Vestibulum sed magna at nunc commodo placerat.', 169);
@@ -1245,9 +1187,7 @@ INSERT INTO public.survey_option (id, option, survey_id) VALUES (1244, 'Quisque 
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1245, 'Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.', 86);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1246, 'Curabitur convallis.', 255);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1247, 'Nullam sit amet turpis elementum ligula vehicula consequat.', 169);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (1248, 'Suspendisse potenti.', 271);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1249, 'Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.', 284);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (1250, 'Vestibulum rutrum rutrum neque.', 341);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1251, 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.', 169);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1252, 'Proin at turpis a pede posuere nonummy.', 63);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1253, 'Phasellus id sapien in sapien iaculis congue.', 336);
@@ -1287,7 +1227,6 @@ INSERT INTO public.survey_option (id, option, survey_id) VALUES (1286, 'Nunc rho
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1287, 'Donec vitae nisi.', 226);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1288, 'In hac habitasse platea dictumst.', 46);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1289, 'Donec vitae nisi.', 410);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (1290, 'Fusce consequat.', 128);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1291, 'Etiam faucibus cursus urna.', 401);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1292, 'Phasellus id sapien in sapien iaculis congue.', 301);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1293, 'Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.', 335);
@@ -1407,7 +1346,6 @@ INSERT INTO public.survey_option (id, option, survey_id) VALUES (1406, 'Integer 
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1407, 'Duis bibendum.', 311);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1408, 'Vivamus vestibulum sagittis sapien.', 167);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1409, 'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est.', 251);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (1410, 'Mauris lacinia sapien quis libero.', 89);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1411, 'Quisque id justo sit amet sapien dignissim vestibulum.', 62);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1412, 'Nunc purus.', 260);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1413, 'Vivamus tortor.', 120);
@@ -1416,7 +1354,6 @@ INSERT INTO public.survey_option (id, option, survey_id) VALUES (1415, 'Vestibul
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1416, 'In quis justo.', 439);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1417, 'Etiam vel augue.', 305);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1418, 'Donec ut mauris eget massa tempor convallis.', 163);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (1419, 'Vivamus vel nulla eget eros elementum pellentesque.', 442);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1420, 'Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla.', 229);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1421, 'Integer ac neque.', 151);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1422, 'Morbi ut odio.', 156);
@@ -1501,7 +1438,6 @@ INSERT INTO public.survey_option (id, option, survey_id) VALUES (1500, 'Vivamus 
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1501, 'Fusce consequat.', 28);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1502, 'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio.', 152);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1503, 'Proin at turpis a pede posuere nonummy.', 33);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (1504, 'Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo.', 445);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1505, 'Nulla facilisi.', 244);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1506, 'Curabitur at ipsum ac tellus semper interdum.', 279);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1507, 'Nulla mollis molestie lorem.', 490);
@@ -1545,7 +1481,6 @@ INSERT INTO public.survey_option (id, option, survey_id) VALUES (1544, 'Cum soci
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1545, 'Maecenas ut massa quis augue luctus tincidunt.', 144);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1546, 'Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.', 267);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1547, 'Maecenas ut massa quis augue luctus tincidunt.', 162);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (1548, 'Integer a nibh.', 74);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1549, 'Ut at dolor quis odio consequat varius.', 319);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1550, 'Cras non velit nec nisi vulputate nonummy.', 237);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1551, 'Nulla ut erat id mauris vulputate elementum.', 31);
@@ -1563,13 +1498,10 @@ INSERT INTO public.survey_option (id, option, survey_id) VALUES (1562, 'In hac h
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1563, 'Nulla facilisi.', 91);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1564, 'Phasellus in felis.', 317);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1565, 'Maecenas pulvinar lobortis est.', 424);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (1566, 'Suspendisse ornare consequat lectus.', 414);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (1567, 'Pellentesque at nulla.', 146);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1568, 'Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.', 174);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1569, 'Aliquam quis turpis eget elit sodales scelerisque.', 321);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1570, 'Integer ac leo.', 292);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1571, 'Morbi porttitor lorem id ligula.', 115);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (1572, 'In quis justo.', 462);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1573, 'Integer ac neque.', 271);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1574, 'In eleifend quam a odio.', 35);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1575, 'Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo.', 353);
@@ -1635,7 +1567,6 @@ INSERT INTO public.survey_option (id, option, survey_id) VALUES (1634, 'Quisque 
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1635, 'Integer a nibh.', 13);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1636, 'Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa.', 177);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1637, 'Sed sagittis.', 208);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (1638, 'Ut tellus.', 325);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1639, 'Donec dapibus.', 439);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1640, 'Cras in purus eu magna vulputate luctus.', 15);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1641, 'Nulla tellus.', 40);
@@ -1670,7 +1601,6 @@ INSERT INTO public.survey_option (id, option, survey_id) VALUES (1669, 'Suspendi
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1670, 'Nulla ac enim.', 246);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1671, 'Praesent lectus.', 38);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1672, 'Nunc nisl.', 428);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (1673, 'Curabitur convallis.', 138);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1674, 'Pellentesque viverra pede ac diam.', 238);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1675, 'Cras non velit nec nisi vulputate nonummy.', 211);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1676, 'Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante.', 303);
@@ -1691,7 +1621,6 @@ INSERT INTO public.survey_option (id, option, survey_id) VALUES (1690, 'Ut at do
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1691, 'Integer ac neque.', 336);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1692, 'Ut tellus.', 108);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1693, 'Vivamus vel nulla eget eros elementum pellentesque.', 329);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (1694, 'Proin risus.', 384);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1695, 'Curabitur in libero ut massa volutpat convallis.', 12);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1696, 'Proin leo odio, porttitor id, consequat in, consequat ut, nulla.', 202);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1697, 'Vestibulum ac est lacinia nisi venenatis tristique.', 20);
@@ -1720,7 +1649,6 @@ INSERT INTO public.survey_option (id, option, survey_id) VALUES (1719, 'Lorem ip
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1720, 'Proin risus.', 116);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1721, 'Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo.', 466);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1722, 'Nulla ac enim.', 430);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (1723, 'Integer ac neque.', 365);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1724, 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit.', 446);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1725, 'Duis mattis egestas metus.', 156);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1726, 'Vivamus vestibulum sagittis sapien.', 413);
@@ -1750,7 +1678,6 @@ INSERT INTO public.survey_option (id, option, survey_id) VALUES (1749, 'Nam cong
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1750, 'Aenean sit amet justo.', 469);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1751, 'Aliquam quis turpis eget elit sodales scelerisque.', 345);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1752, 'Aenean auctor gravida sem.', 481);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (1753, 'Nulla ac enim.', 292);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1754, 'Sed sagittis.', 238);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1755, 'Vestibulum quam sapien, varius ut, blandit non, interdum in, ante.', 469);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1756, 'Duis at velit eu est congue elementum.', 275);
@@ -1764,7 +1691,6 @@ INSERT INTO public.survey_option (id, option, survey_id) VALUES (1763, 'Morbi a 
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1764, 'Praesent id massa id nisl venenatis lacinia.', 398);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1765, 'Nullam porttitor lacus at turpis.', 154);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1766, 'Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.', 143);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (1767, 'Aliquam quis turpis eget elit sodales scelerisque.', 265);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1768, 'Etiam justo.', 143);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1769, 'Integer ac neque.', 186);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1770, 'Nunc nisl.', 187);
@@ -1784,7 +1710,6 @@ INSERT INTO public.survey_option (id, option, survey_id) VALUES (1783, 'Donec vi
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1784, 'Quisque porta volutpat erat.', 266);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1785, 'Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla.', 409);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1786, 'Duis at velit eu est congue elementum.', 202);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (1787, 'Mauris lacinia sapien quis libero.', 89);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1788, 'Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci.', 171);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1789, 'Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo.', 387);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1790, 'Etiam justo.', 386);
@@ -1856,14 +1781,12 @@ INSERT INTO public.survey_option (id, option, survey_id) VALUES (1854, 'Donec da
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1855, 'Duis ac nibh.', 413);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1856, 'Morbi non quam nec dui luctus rutrum.', 223);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1857, 'Nulla nisl.', 165);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (1858, 'Maecenas rhoncus aliquam lacus.', 76);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1859, 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit.', 199);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1860, 'Vivamus vel nulla eget eros elementum pellentesque.', 264);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1861, 'Duis at velit eu est congue elementum.', 273);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1862, 'Nulla ac enim.', 260);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1863, 'Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.', 380);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1864, 'Donec ut mauris eget massa tempor convallis.', 494);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (1865, 'Maecenas rhoncus aliquam lacus.', 76);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1866, 'Maecenas tincidunt lacus at velit.', 367);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1867, 'Donec posuere metus vitae ipsum.', 46);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1868, 'Cras in purus eu magna vulputate luctus.', 292);
@@ -1907,13 +1830,11 @@ INSERT INTO public.survey_option (id, option, survey_id) VALUES (1905, 'Mauris s
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1906, 'Sed accumsan felis.', 168);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1907, 'Donec ut dolor.', 166);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1908, 'Aliquam sit amet diam in magna bibendum imperdiet.', 235);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (1909, 'Integer ac neque.', 365);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1910, 'Nunc rhoncus dui vel sem.', 253);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1911, 'Nulla mollis molestie lorem.', 238);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1912, 'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio.', 376);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1913, 'Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.', 179);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1914, 'Nulla nisl.', 71);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (1915, 'Aliquam erat volutpat.', 53);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1916, 'Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci.', 434);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1917, 'Nullam molestie nibh in lectus.', 467);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1918, 'Phasellus id sapien in sapien iaculis congue.', 362);
@@ -1928,7 +1849,6 @@ INSERT INTO public.survey_option (id, option, survey_id) VALUES (1926, 'Integer 
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1927, 'In sagittis dui vel nisl.', 97);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1928, 'Mauris sit amet eros.', 180);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1929, 'Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.', 87);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (1930, 'In quis justo.', 459);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1931, 'In est risus, auctor sed, tristique in, tempus sit amet, sem.', 279);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1932, 'Donec ut mauris eget massa tempor convallis.', 211);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1933, 'Nullam sit amet turpis elementum ligula vehicula consequat.', 140);
@@ -1996,7 +1916,6 @@ INSERT INTO public.survey_option (id, option, survey_id) VALUES (1994, 'Vestibul
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1995, 'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue.', 7);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1996, 'Morbi vel lectus in quam fringilla rhoncus.', 272);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1997, 'Sed vel enim sit amet nunc viverra dapibus.', 370);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (1998, 'Suspendisse potenti.', 386);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (1999, 'Suspendisse potenti.', 499);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2000, 'In eleifend quam a odio.', 174);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2001, 'Nulla mollis molestie lorem.', 248);
@@ -2005,7 +1924,6 @@ INSERT INTO public.survey_option (id, option, survey_id) VALUES (2003, 'Morbi no
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2004, 'Nunc purus.', 183);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2005, 'Sed accumsan felis.', 68);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2006, 'Duis at velit eu est congue elementum.', 129);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (2007, 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit.', 76);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2008, 'Etiam justo.', 101);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2009, 'Nulla nisl.', 184);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2010, 'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est.', 60);
@@ -2072,7 +1990,6 @@ INSERT INTO public.survey_option (id, option, survey_id) VALUES (2070, 'Nullam v
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2071, 'Maecenas pulvinar lobortis est.', 315);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2072, 'Curabitur gravida nisi at nibh.', 116);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2073, 'Suspendisse potenti.', 225);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (2074, 'Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue.', 497);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2075, 'Pellentesque viverra pede ac diam.', 66);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2076, 'Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.', 254);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2077, 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit.', 214);
@@ -2087,10 +2004,8 @@ INSERT INTO public.survey_option (id, option, survey_id) VALUES (2085, 'Integer 
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2086, 'Praesent blandit.', 329);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2087, 'Fusce posuere felis sed lacus.', 485);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2088, 'Pellentesque ultrices mattis odio.', 372);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (2089, 'Nulla ut erat id mauris vulputate elementum.', 370);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2090, 'Mauris sit amet eros.', 398);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2091, 'Donec dapibus.', 303);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (2092, 'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc.', 82);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2093, 'Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.', 229);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2094, 'Aenean auctor gravida sem.', 343);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2095, 'Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci.', 431);
@@ -2098,7 +2013,6 @@ INSERT INTO public.survey_option (id, option, survey_id) VALUES (2096, 'Curabitu
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2097, 'Cras pellentesque volutpat dui.', 249);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2098, 'Phasellus id sapien in sapien iaculis congue.', 429);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2099, 'Pellentesque ultrices mattis odio.', 78);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (2100, 'Vivamus tortor.', 349);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2101, 'Praesent id massa id nisl venenatis lacinia.', 89);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2102, 'Duis mattis egestas metus.', 89);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2103, 'In blandit ultrices enim.', 24);
@@ -2180,14 +2094,11 @@ INSERT INTO public.survey_option (id, option, survey_id) VALUES (2179, 'Proin le
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2180, 'Nullam molestie nibh in lectus.', 298);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2181, 'Phasellus in felis.', 163);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2182, 'Suspendisse potenti.', 363);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (2183, 'Suspendisse ornare consequat lectus.', 414);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2184, 'Vivamus tortor.', 230);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2185, 'Ut at dolor quis odio consequat varius.', 312);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2186, 'In hac habitasse platea dictumst.', 231);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2187, 'Curabitur gravida nisi at nibh.', 9);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2188, 'In est risus, auctor sed, tristique in, tempus sit amet, sem.', 433);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (2189, 'Suspendisse accumsan tortor quis turpis.', 35);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (2190, 'Suspendisse potenti.', 271);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2191, 'Aenean sit amet justo.', 213);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2192, 'Curabitur convallis.', 359);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2193, 'Donec vitae nisi.', 79);
@@ -2214,7 +2125,6 @@ INSERT INTO public.survey_option (id, option, survey_id) VALUES (2212, 'Vestibul
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2213, 'Phasellus sit amet erat.', 58);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2214, 'Sed ante.', 106);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2215, 'Sed sagittis.', 83);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (2216, 'Suspendisse potenti.', 434);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2217, 'Etiam vel augue.', 167);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2218, 'Morbi porttitor lorem id ligula.', 4);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2219, 'Quisque porta volutpat erat.', 69);
@@ -2246,9 +2156,7 @@ INSERT INTO public.survey_option (id, option, survey_id) VALUES (2244, 'Cum soci
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2245, 'Nulla ac enim.', 441);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2246, 'Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue.', 313);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2247, 'Integer non velit.', 387);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (2248, 'In hac habitasse platea dictumst.', 218);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2249, 'Vestibulum ac est lacinia nisi venenatis tristique.', 458);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (2250, 'Nullam sit amet turpis elementum ligula vehicula consequat.', 276);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2251, 'Praesent blandit lacinia erat.', 334);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2252, 'Suspendisse potenti.', 274);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2253, 'Donec dapibus.', 322);
@@ -2266,10 +2174,8 @@ INSERT INTO public.survey_option (id, option, survey_id) VALUES (2264, 'Mauris u
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2265, 'Praesent lectus.', 150);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2266, 'Donec quis orci eget orci vehicula condimentum.', 3);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2267, 'Curabitur convallis.', 159);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (2268, 'Vestibulum ac est lacinia nisi venenatis tristique.', 437);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2269, 'Pellentesque eget nunc.', 460);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2270, 'Donec ut mauris eget massa tempor convallis.', 281);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (2271, 'Proin leo odio, porttitor id, consequat in, consequat ut, nulla.', 219);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2272, 'Duis ac nibh.', 169);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2273, 'Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.', 191);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2274, 'Donec quis orci eget orci vehicula condimentum.', 188);
@@ -2289,7 +2195,6 @@ INSERT INTO public.survey_option (id, option, survey_id) VALUES (2287, 'Nunc rho
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2288, 'Cras pellentesque volutpat dui.', 16);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2289, 'Quisque porta volutpat erat.', 52);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2290, 'Vestibulum ac est lacinia nisi venenatis tristique.', 254);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (2291, 'Ut tellus.', 325);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2292, 'Duis aliquam convallis nunc.', 427);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2293, 'Duis at velit eu est congue elementum.', 156);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2294, 'Nam tristique tortor eu pede.', 422);
@@ -2300,7 +2205,6 @@ INSERT INTO public.survey_option (id, option, survey_id) VALUES (2298, 'Aenean f
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2299, 'Pellentesque at nulla.', 482);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2300, 'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc.', 73);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2301, 'Integer tincidunt ante vel ipsum.', 408);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (2302, 'In hac habitasse platea dictumst.', 302);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2303, 'Quisque ut erat.', 401);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2304, 'Aenean sit amet justo.', 336);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2305, 'Vivamus vestibulum sagittis sapien.', 68);
@@ -2318,10 +2222,7 @@ INSERT INTO public.survey_option (id, option, survey_id) VALUES (2317, 'Nullam s
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2318, 'Quisque id justo sit amet sapien dignissim vestibulum.', 493);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2319, 'Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.', 378);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2320, 'Duis consequat dui nec nisi volutpat eleifend.', 393);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (2321, 'Suspendisse potenti.', 132);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (2322, 'Proin risus.', 384);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2323, 'Fusce posuere felis sed lacus.', 300);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (2324, 'Nam nulla.', 267);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2325, 'Nunc purus.', 312);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2326, 'Maecenas rhoncus aliquam lacus.', 268);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2327, 'In blandit ultrices enim.', 185);
@@ -2329,7 +2230,6 @@ INSERT INTO public.survey_option (id, option, survey_id) VALUES (2328, 'Curabitu
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2329, 'Sed vel enim sit amet nunc viverra dapibus.', 144);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2330, 'Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante.', 115);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2331, 'Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.', 225);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (2332, 'Integer a nibh.', 74);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2333, 'Maecenas ut massa quis augue luctus tincidunt.', 457);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2334, 'Pellentesque viverra pede ac diam.', 434);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2335, 'In quis justo.', 322);
@@ -2356,7 +2256,6 @@ INSERT INTO public.survey_option (id, option, survey_id) VALUES (2355, 'Cras non
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2356, 'Duis at velit eu est congue elementum.', 48);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2357, 'Phasellus in felis.', 413);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2358, 'Cras non velit nec nisi vulputate nonummy.', 94);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (2359, 'In hac habitasse platea dictumst.', 218);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2360, 'Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo.', 101);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2361, 'Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.', 109);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2362, 'Vivamus tortor.', 373);
@@ -2400,17 +2299,13 @@ INSERT INTO public.survey_option (id, option, survey_id) VALUES (2399, 'Lorem ip
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2400, 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit.', 118);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2401, 'Donec ut mauris eget massa tempor convallis.', 53);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2402, 'Nullam sit amet turpis elementum ligula vehicula consequat.', 138);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (2403, 'Donec vitae nisi.', 70);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2404, 'Nullam porttitor lacus at turpis.', 219);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2405, 'Vivamus tortor.', 480);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2406, 'Proin at turpis a pede posuere nonummy.', 419);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2407, 'Morbi non quam nec dui luctus rutrum.', 48);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2408, 'Maecenas tincidunt lacus at velit.', 334);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2409, 'Curabitur in libero ut massa volutpat convallis.', 462);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (2410, 'Morbi quis tortor id nulla ultrices aliquet.', 485);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2411, 'Curabitur convallis.', 491);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (2412, 'Quisque id justo sit amet sapien dignissim vestibulum.', 267);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (2413, 'Duis bibendum.', 469);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2414, 'Cras in purus eu magna vulputate luctus.', 150);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2415, 'Aenean fermentum.', 350);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2416, 'Nunc rhoncus dui vel sem.', 464);
@@ -2441,7 +2336,6 @@ INSERT INTO public.survey_option (id, option, survey_id) VALUES (2440, 'Integer 
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2441, 'Ut tellus.', 42);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2442, 'Maecenas pulvinar lobortis est.', 389);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2443, 'Suspendisse accumsan tortor quis turpis.', 287);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (2444, 'Vivamus vel nulla eget eros elementum pellentesque.', 442);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2445, 'Integer a nibh.', 184);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2446, 'Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci.', 370);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2447, 'Proin eu mi.', 105);
@@ -2466,7 +2360,6 @@ INSERT INTO public.survey_option (id, option, survey_id) VALUES (2465, 'Suspendi
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2466, 'Aenean auctor gravida sem.', 313);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2467, 'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi.', 83);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2468, 'Duis mattis egestas metus.', 259);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (2469, 'Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante.', 121);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2470, 'Vivamus in felis eu sapien cursus vestibulum.', 305);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2471, 'Nulla suscipit ligula in lacus.', 422);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2472, 'Donec dapibus.', 222);
@@ -2527,7 +2420,6 @@ INSERT INTO public.survey_option (id, option, survey_id) VALUES (2525, 'Nulla ne
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2526, 'Integer ac leo.', 58);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2527, 'Nullam sit amet turpis elementum ligula vehicula consequat.', 393);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2528, 'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam.', 382);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (2529, 'Nulla ac enim.', 280);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2530, 'Mauris lacinia sapien quis libero.', 106);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2531, 'Aenean sit amet justo.', 189);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2532, 'Aliquam erat volutpat.', 424);
@@ -2550,7 +2442,6 @@ INSERT INTO public.survey_option (id, option, survey_id) VALUES (2548, 'Praesent
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2549, 'Sed accumsan felis.', 82);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2550, 'Vivamus vel nulla eget eros elementum pellentesque.', 404);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2551, 'Proin risus.', 84);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (2552, 'Suspendisse potenti.', 385);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2553, 'Nulla ac enim.', 27);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2554, 'Proin at turpis a pede posuere nonummy.', 311);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2555, 'Morbi porttitor lorem id ligula.', 259);
@@ -2559,7 +2450,6 @@ INSERT INTO public.survey_option (id, option, survey_id) VALUES (2557, 'Maecenas
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2558, 'Duis aliquam convallis nunc.', 102);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2559, 'Quisque id justo sit amet sapien dignissim vestibulum.', 97);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2560, 'Nulla suscipit ligula in lacus.', 170);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (2561, 'In est risus, auctor sed, tristique in, tempus sit amet, sem.', 243);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2562, 'Maecenas ut massa quis augue luctus tincidunt.', 244);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2563, 'Etiam faucibus cursus urna.', 427);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2564, 'Duis mattis egestas metus.', 84);
@@ -2596,7 +2486,6 @@ INSERT INTO public.survey_option (id, option, survey_id) VALUES (2594, 'Suspendi
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2595, 'Proin leo odio, porttitor id, consequat in, consequat ut, nulla.', 342);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2596, 'Morbi a ipsum.', 258);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2597, 'Vivamus vestibulum sagittis sapien.', 4);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (2598, 'Fusce consequat.', 128);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2599, 'Etiam vel augue.', 59);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2600, 'Phasellus in felis.', 182);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2601, 'Suspendisse potenti.', 211);
@@ -2639,7 +2528,6 @@ INSERT INTO public.survey_option (id, option, survey_id) VALUES (2638, 'Integer 
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2639, 'Nulla ut erat id mauris vulputate elementum.', 34);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2640, 'Ut at dolor quis odio consequat varius.', 386);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2641, 'Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo.', 59);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (2642, 'Nullam varius.', 0);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2643, 'Sed sagittis.', 457);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2644, 'Aenean fermentum.', 312);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2645, 'Suspendisse potenti.', 378);
@@ -2658,7 +2546,6 @@ INSERT INTO public.survey_option (id, option, survey_id) VALUES (2657, 'Fusce la
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2658, 'Fusce posuere felis sed lacus.', 130);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2659, 'Donec posuere metus vitae ipsum.', 56);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2660, 'Nullam porttitor lacus at turpis.', 129);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (2661, 'Nunc rhoncus dui vel sem.', 338);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2662, 'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam.', 66);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2663, 'Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.', 467);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2664, 'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue.', 192);
@@ -2687,7 +2574,6 @@ INSERT INTO public.survey_option (id, option, survey_id) VALUES (2686, 'Nam null
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2687, 'Ut tellus.', 442);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2688, 'Suspendisse potenti.', 242);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2689, 'Morbi non quam nec dui luctus rutrum.', 421);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (2690, 'Pellentesque at nulla.', 146);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2691, 'Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.', 390);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2692, 'In quis justo.', 149);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2693, 'Nullam porttitor lacus at turpis.', 404);
@@ -2703,11 +2589,9 @@ INSERT INTO public.survey_option (id, option, survey_id) VALUES (2702, 'Morbi a 
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2703, 'In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.', 302);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2704, 'Nulla nisl.', 59);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2705, 'Morbi non lectus.', 252);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (2706, 'Nunc rhoncus dui vel sem.', 338);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2707, 'Nulla mollis molestie lorem.', 106);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2708, 'Aenean fermentum.', 76);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2709, 'In eleifend quam a odio.', 336);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (2710, 'Curabitur gravida nisi at nibh.', 184);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2711, 'Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue.', 6);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2712, 'Morbi a ipsum.', 410);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2713, 'Curabitur convallis.', 48);
@@ -2719,7 +2603,6 @@ INSERT INTO public.survey_option (id, option, survey_id) VALUES (2718, 'Nullam o
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2719, 'Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante.', 44);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2720, 'Etiam justo.', 232);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2721, 'Nulla tellus.', 298);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (2722, 'Vivamus tortor.', 349);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2723, 'In blandit ultrices enim.', 422);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2724, 'Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.', 233);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2827, 'Quisque id justo sit amet sapien dignissim vestibulum.', 275);
@@ -2740,7 +2623,6 @@ INSERT INTO public.survey_option (id, option, survey_id) VALUES (2738, 'Vivamus 
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2739, 'Pellentesque ultrices mattis odio.', 107);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2740, 'Nulla suscipit ligula in lacus.', 117);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2741, 'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue.', 236);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (2742, 'Nullam sit amet turpis elementum ligula vehicula consequat.', 214);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2743, 'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam.', 180);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2744, 'Morbi non quam nec dui luctus rutrum.', 191);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2745, 'Suspendisse potenti.', 351);
@@ -2760,9 +2642,7 @@ INSERT INTO public.survey_option (id, option, survey_id) VALUES (2758, 'Donec od
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2759, 'Aenean sit amet justo.', 202);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2760, 'Donec ut mauris eget massa tempor convallis.', 277);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2761, 'Sed ante.', 281);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (2762, 'Praesent id massa id nisl venenatis lacinia.', 389);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2763, 'Nullam porttitor lacus at turpis.', 268);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (2764, 'Morbi a ipsum.', 92);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2765, 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit.', 299);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2766, 'In hac habitasse platea dictumst.', 117);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2767, 'Duis bibendum.', 275);
@@ -2803,7 +2683,6 @@ INSERT INTO public.survey_option (id, option, survey_id) VALUES (2801, 'Aliquam 
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2802, 'Nulla facilisi.', 111);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2803, 'Fusce consequat.', 313);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2804, 'Morbi non quam nec dui luctus rutrum.', 66);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (2805, 'Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue.', 497);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2806, 'Aliquam erat volutpat.', 286);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2807, 'In congue.', 488);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2808, 'Sed vel enim sit amet nunc viverra dapibus.', 77);
@@ -2818,7 +2697,6 @@ INSERT INTO public.survey_option (id, option, survey_id) VALUES (2816, 'Integer 
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2817, 'Donec quis orci eget orci vehicula condimentum.', 46);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2818, 'Maecenas rhoncus aliquam lacus.', 306);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2819, 'Mauris sit amet eros.', 132);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (2820, 'Mauris sit amet eros.', 86);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2821, 'Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.', 176);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2822, 'Nulla ut erat id mauris vulputate elementum.', 118);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2823, 'Nullam porttitor lacus at turpis.', 301);
@@ -2895,7 +2773,6 @@ INSERT INTO public.survey_option (id, option, survey_id) VALUES (2894, 'Integer 
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2895, 'Donec ut dolor.', 105);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2896, 'Nullam molestie nibh in lectus.', 165);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2897, 'Nullam molestie nibh in lectus.', 451);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (2898, 'Nullam sit amet turpis elementum ligula vehicula consequat.', 276);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2899, 'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio.', 69);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2900, 'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc.', 343);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2901, 'Vivamus vel nulla eget eros elementum pellentesque.', 184);
@@ -2941,7 +2818,6 @@ INSERT INTO public.survey_option (id, option, survey_id) VALUES (2940, 'Morbi ve
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2941, 'Etiam vel augue.', 477);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2942, 'Curabitur gravida nisi at nibh.', 192);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2943, 'Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl.', 22);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (2944, 'Aliquam quis turpis eget elit sodales scelerisque.', 265);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2945, 'Vestibulum quam sapien, varius ut, blandit non, interdum in, ante.', 328);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2946, 'Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.', 75);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2947, 'Aenean lectus.', 390);
@@ -2992,7 +2868,6 @@ INSERT INTO public.survey_option (id, option, survey_id) VALUES (2991, 'Sed accu
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2992, 'Duis consequat dui nec nisi volutpat eleifend.', 325);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2993, 'Quisque ut erat.', 167);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2994, 'Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo.', 409);
-INSERT INTO public.survey_option (id, option, survey_id) VALUES (2995, 'Aliquam erat volutpat.', 53);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2996, 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.', 1);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2997, 'Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue.', 98);
 INSERT INTO public.survey_option (id, option, survey_id) VALUES (2998, 'Vivamus tortor.', 385);

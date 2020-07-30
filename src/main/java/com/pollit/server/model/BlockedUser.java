@@ -13,6 +13,16 @@ public class BlockedUser {
     private String cause;
     private Moderator moderator;
     private User user;
+    private boolean isBlocked;
+
+    @Column(name = "is_blocked", nullable = false)
+    public boolean isBlocked() {
+        return isBlocked;
+    }
+
+    public void setBlocked(boolean blocked) {
+        isBlocked = blocked;
+    }
 
     @Id
     @Column(name = "id", nullable = false)

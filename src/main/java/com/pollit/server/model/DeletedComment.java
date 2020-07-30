@@ -13,6 +13,16 @@ public class DeletedComment {
     private String cause;
     private User moderator;
     private Comment comment;
+    private boolean isDeleted;
+
+    @Column(name = "is_deleted", nullable = false)
+    public boolean isDeleted() {
+        return isDeleted;
+    }
+
+    public void setDeleted(boolean deleted) {
+        isDeleted = deleted;
+    }
 
     @Id
     @Column(name = "id", nullable = false)

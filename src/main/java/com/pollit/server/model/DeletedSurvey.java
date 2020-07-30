@@ -13,6 +13,16 @@ public class DeletedSurvey {
     private String cause;
     private User moderator;
     private Survey survey;
+    private boolean isDeleted;
+
+    @Column(name = "is_deleted", nullable = false)
+    public boolean isDeleted() {
+        return isDeleted;
+    }
+
+    public void setDeleted(boolean deleted) {
+        isDeleted = deleted;
+    }
 
     @Id
     @Column(name = "id", nullable = false)
