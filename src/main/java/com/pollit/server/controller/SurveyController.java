@@ -4,6 +4,7 @@ import com.pollit.server.customModel.Trend;
 import com.pollit.server.repository.SurveyRepository;
 import com.pollit.server.serviceinterface.ISurveyService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.repository.query.Param;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -23,7 +24,7 @@ public class SurveyController {
     }
 
     @GetMapping("/trends")
-    public List<Trend> findTrends() {
-        return surveyService.findTrends();
+    public List<Trend> findTrends(@Param("pageNumber") int pageNumber) {
+        return surveyService.findTrends(pageNumber);
     }
 }

@@ -11,6 +11,8 @@ import java.util.List;
 @Service
 public class SurveyService implements ISurveyService {
 
+    public final int PAGE_SIZE = 20;
+
     private final SurveyRepository surveyRepository;
 
     public SurveyService(SurveyRepository surveyRepository) {
@@ -18,7 +20,7 @@ public class SurveyService implements ISurveyService {
     }
 
     @Override
-    public List<Trend> findTrends() {
-        return surveyRepository.findTrends();
+    public List<Trend> findTrends(int pageNumber) {
+        return surveyRepository.findTrends(pageNumber * PAGE_SIZE);
     }
 }
