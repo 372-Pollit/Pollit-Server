@@ -35,7 +35,7 @@ public interface SurveyRepository extends CrudRepository<Survey, Integer> {
             "\n" +
             "    order by s.post_date\\:\\:date desc) s_with_comment on s_with_vote.id = s_with_comment.id\n" +
             "join \"user\" u on s_with_vote.poster_id = u.id "+
-            "order by s_with_vote.post_date desc ,vote_count desc, comment_count desc\n" +
+            "order by s_with_vote.due_date - current_date desc ,vote_count desc, comment_count desc\n" +
             "limit 20\n" +
             "offset :pageNumber")
     public List<Trend> findTrends(@Param("pageNumber") int pageNumber );
