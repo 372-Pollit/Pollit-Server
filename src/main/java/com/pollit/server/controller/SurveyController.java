@@ -27,4 +27,9 @@ public class SurveyController {
     public List<Trend> findTrends(@Param("pageNumber") int pageNumber) {
         return surveyService.findTrends(pageNumber);
     }
+
+    @GetMapping("/search")
+    public List<Trend> search(@Param("search") String search, @Param("pageNumber") int pageNumber) {
+        return surveyService.search(search, pageNumber);
+    }
 }
