@@ -40,4 +40,87 @@ public interface SurveyRepository extends CrudRepository<Survey, Integer> {
             "offset :pageNumber")
     public List<Trend> findTrends(@Param("pageNumber") int pageNumber );
 
+    @Query(nativeQuery = true,
+    value = "WITH in_title AS (\n" +
+            "   SELECT s.id, TRUE is_in_title\n" +
+            "   FROM survey s\n" +
+            "   WHERE s.title LIKE %:search%\n" +
+            "), in_tag AS (\n" +
+            "   SELECT s.id, TRUE is_in_tag\n" +
+            "   FROM survey s\n" +
+            "   WHERE s.id IN (\n" +
+            "       SELECT survey_id\n" +
+            "       FROM survey_tag\n" +
+            "       WHERE survey_tag.tag LIKE %:search%\n" +
+            "   )\n" +
+            "), in_explanation AS (\n" +
+            "   SELECT s.id, TRUE is_in_explanation\n" +
+            "   FROM survey s\n" +
+            "   WHERE s.explanation LIKE %:search%\n" +
+            "), in_title_and_tag AS (\n" +
+            "   SELECT \"id\", is_in_title, is_in_tag, FALSE is_in_explanation\n" +
+            "   FROM in_title NATURAL JOIN in_tag\n" +
+            "   WHERE \"id\" NOT IN (SELECT \"id\" FROM in_explanation)\n" +
+            "), in_title_and_explanation AS (\n" +
+            "   SELECT \"id\", is_in_title, FALSE is_in_tag, is_in_explanation\n" +
+            "   FROM in_title NATURAL JOIN in_explanation\n" +
+            "   WHERE \"id\" NOT IN (SELECT \"id\" FROM in_tag)\n" +
+            "), in_tag_and_explanation AS (\n" +
+            "   SELECT \"id\", FALSE is_in_title, is_in_tag, is_in_explanation\n" +
+            "   FROM in_tag NATURAL JOIN in_explanation\n" +
+            "   WHERE \"id\" NOT IN (SELECT \"id\" FROM in_title)\n" +
+            "),  only_title AS (\n" +
+            "   SELECT \"id\", is_in_title, FALSE is_in_tag, FALSE is_in_explanation\n" +
+            "   FROM in_title\n" +
+            "   WHERE \"id\" NOT IN (SELECT \"id\" FROM in_tag) AND \"id\" NOT IN (SELECT \"id\" FROM in_title)\n" +
+            "),  only_tag AS (\n" +
+            "   SELECT \"id\", FALSE is_in_title, is_in_tag, FALSE is_in_explanation\n" +
+            "   FROM in_tag\n" +
+            "   WHERE \"id\" NOT IN (SELECT \"id\" FROM in_title) AND \"id\" NOT IN (SELECT \"id\" FROM in_explanation)\n" +
+            "),  only_explanation AS (\n" +
+            "   SELECT \"id\", FALSE is_in_title, FALSE is_in_tag, is_in_explanation\n" +
+            "   FROM in_explanation\n" +
+            "   WHERE \"id\" NOT IN (SELECT \"id\" FROM in_title) AND \"id\" NOT IN (SELECT \"id\" FROM in_tag)\n" +
+            "), in_all AS (\n" +
+            "   SELECT \"id\", is_in_title, is_in_tag, is_in_explanation\n" +
+            "   FROM in_title NATURAL JOIN in_tag NATURAL JOIN in_explanation\n" +
+            "), combine AS (\n" +
+            "   SELECT *\n" +
+            "   FROM (\n" +
+            "            SELECT * FROM in_all\n" +
+            "            UNION\n" +
+            "            SELECT * FROM in_title_and_tag\n" +
+            "            UNION\n" +
+            "            SELECT * FROM in_title_and_explanation\n" +
+            "            UNION\n" +
+            "            SELECT * FROM in_tag_and_explanation\n" +
+            "            UNION\n" +
+            "            SELECT * FROM only_title\n" +
+            "            UNION\n" +
+            "            SELECT * FROM only_tag\n" +
+            "            UNION\n" +
+            "            SELECT * FROM only_explanation\n" +
+            "        ) foo\n" +
+            ")\n" +
+            "\n" +
+            "\n" +
+            "SELECT s.id, title, u.username as username, s.explanation,\n" +
+            "\t\ts.post_date\\:\\:date as postDate, due_date\\:\\:date as dueDate, s_with_vote.count as voteCount,\n" +
+            "\t\ts_with_comment.count as commentCount\n" +
+            "FROM (\n" +
+            "        SELECT *\n" +
+            "        FROM combine\n" +
+            "    ) c NATURAL JOIN survey s join \"user\" u on s.poster_id = u.id\n" +
+            "\tjoin (select s.id, count(*)\n" +
+            "\t\t from survey s join vote v on s.id = v.survey_id\n" +
+            "\t\t group by s.id) s_with_vote on s_with_vote.id = s.id\n" +
+            "\t join (select s.id, count(*)\n" +
+            "\t\t  from survey s join comment c on s.id = c.survey_id\n" +
+            "\t\t  group by s.id) s_with_comment on s_with_comment.id = s.id \n" +
+            "ORDER BY c.is_in_title DESC, c.is_in_tag DESC, c.is_in_explanation DESC, s.due_date - current_date DESC," +
+            " s.id ASC\n" +
+            "limit 20\n" +
+            "offset :pageNumber")
+    public List<Trend> search(@Param("search") String search, @Param("pageNumber") int pageNumber);
+
 }

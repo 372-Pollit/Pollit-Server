@@ -23,4 +23,9 @@ public class SurveyService implements ISurveyService {
     public List<Trend> findTrends(int pageNumber) {
         return surveyRepository.findTrends(pageNumber * PAGE_SIZE);
     }
+
+    @Override
+    public List<Trend> search(String search, int pageNumber) {
+        return surveyRepository.search(search, pageNumber * PAGE_SIZE);
+    }
 }
