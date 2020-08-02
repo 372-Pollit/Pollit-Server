@@ -21,4 +21,10 @@ public class UserService implements IUserService {
     public List<User> findAll() {
         return (List<User>) repository.findAll();
     }
+
+    @Override
+    public User isUser(String username, String password) {
+        return repository.isUser(username, password);
+    }
+
 }

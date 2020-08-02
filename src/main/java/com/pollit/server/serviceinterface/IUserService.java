@@ -9,4 +9,6 @@ public interface IUserService {
 
     public List<User> findAll();
 
+    public User isUser(String username, String password);
+
 }
