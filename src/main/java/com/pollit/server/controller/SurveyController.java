@@ -1,6 +1,7 @@
 package com.pollit.server.controller;
 
 import com.pollit.server.customModel.Trend;
+import com.pollit.server.customModel.VotedSurveys;
 import com.pollit.server.repository.SurveyRepository;
 import com.pollit.server.serviceinterface.ISurveyService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -31,5 +32,15 @@ public class SurveyController {
     @GetMapping("/search")
     public List<Trend> search(@Param("search") String search, @Param("pageNumber") int pageNumber) {
         return surveyService.search(search, pageNumber);
+    }
+
+    @GetMapping("/votedSurveys")
+    public List<VotedSurveys> getVotedSurveys(@Param("userId") int userId, @Param("pageNumber") int pageNumber) {
+        return surveyService.getVotedSurveys(userId, pageNumber);
+    }
+
+    @GetMapping("/postedSurveys")
+    public List<Trend> getPostedSurveys(@Param("userId") int userId, @Param("pageNumber") int pageNumber) {
+        return surveyService.getPostedSurveys(userId, pageNumber);
     }
 }

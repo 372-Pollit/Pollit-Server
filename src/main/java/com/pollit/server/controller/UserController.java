@@ -31,4 +31,9 @@ public class UserController {
         return userService.isUser(username, password);
     }
 
+    @GetMapping("/find")
+    public User findUserById(@Param("id") int id) {
+        return userService.findById(id);
+    }
+
 }

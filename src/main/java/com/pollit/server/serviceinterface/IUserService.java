@@ -11,4 +11,5 @@ public interface IUserService {
 
     public User isUser(String username, String password);
 
+    User findById(int id);
 }

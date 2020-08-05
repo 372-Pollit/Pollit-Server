@@ -1,6 +1,7 @@
 package com.pollit.server.repository;
 
 import com.pollit.server.customModel.Trend;
+import com.pollit.server.customModel.VotedSurveys;
 import com.pollit.server.model.Survey;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
@@ -123,4 +124,56 @@ public interface SurveyRepository extends CrudRepository<Survey, Integer> {
             "offset :pageNumber")
     public List<Trend> search(@Param("search") String search, @Param("pageNumber") int pageNumber);
 
+    @Query(nativeQuery = true,
+    value = "WITH votes_of_user AS (\n" +
+            "   SELECT v.survey_id, v.option_id, v.date\n" +
+            "   FROM vote v\n" +
+            "   WHERE v.user_id = :userId\n" +
+            ")\n" +
+            "SELECT s.id as id, s.title as title, u.username as username, s.explanation as explanation, s" +
+            ".post_date\\:\\:date" +
+            " " +
+            "as postDate, s.due_date\\:\\:date as dueDate, s_with_votes.count as voteCount, s_with_comments.count as " +
+            "commentCount, " +
+            " o.option" +
+            " as option\n" +
+            "FROM survey s JOIN votes_of_user v ON s.id = v.survey_id JOIN survey_option o ON v.option_id = o.id\n" +
+            "join (select s.id, count(*) from survey s join comment c on s.id = c.survey_id\n" +
+            "group by s.id) s_with_votes on s.id = s_with_votes.id join (select s.id, count(*)\n" +
+            "from survey s join comment c2 on s.id = c2.survey_id group by s.id) s_with_comments on s.id = " +
+            "s_with_comments.id\n" +
+            "join \"user\" u on s.poster_id = u.id\n" +
+            "ORDER BY v.date DESC\n" +
+            "limit 20\n" +
+            "offset :pageNumber")
+    public List<VotedSurveys> getVotedSurveys(@Param("userId") int userId, @Param("pageNumber") int pageNumber);
+
+
+    @Query(nativeQuery = true,
+    value = "select s.id                 as id,\n" +
+            "       s.title              as title,\n" +
+            "       s.due_date\\:\\:date     as dueDate,\n" +
+            "       s.post_date\\:\\:date    as postDate,\n" +
+            "       u.username           as username,\n" +
+            "       s.explanation        as explanation,\n" +
+            "       s_with_vote.count    as voteCount,\n" +
+            "       s_with_comment.count as commentCount\n" +
+            "\n" +
+            "from survey s\n" +
+            "         join (select s.id, count(*)\n" +
+            "               from survey s\n" +
+            "                        join vote v on s.id = v.survey_id\n" +
+            "               group by s.id) s_with_vote on s.id = s_with_vote.id\n" +
+            "         join (select s.id, count(*)\n" +
+            "               from survey s\n" +
+            "                        join comment v on s.id = v.survey_id\n" +
+            "               group by s.id) s_with_comment on s.id = s_with_comment.id\n" +
+            "         join \"user\" u on s.poster_id = u.id\n" +
+            "where u.id = :userId\n" +
+            "order by s.post_date desc\n" +
+            "limit 20\n" +
+            "offset :pageNumber" +
+            "\n" +
+            "\n")
+    public List<Trend> getPostedSurveys(@Param("userId") int userId, @Param("pageNumber") int pageNumber);
 }

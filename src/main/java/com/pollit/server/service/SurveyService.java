@@ -1,6 +1,7 @@
 package com.pollit.server.service;
 
 import com.pollit.server.customModel.Trend;
+import com.pollit.server.customModel.VotedSurveys;
 import com.pollit.server.repository.SurveyRepository;
 import com.pollit.server.serviceinterface.ISurveyService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -28,4 +29,16 @@ public class SurveyService implements ISurveyService {
     public List<Trend> search(String search, int pageNumber) {
         return surveyRepository.search(search, pageNumber * PAGE_SIZE);
     }
+
+    @Override
+    public List<VotedSurveys> getVotedSurveys(int userId, int pageNumber) {
+        return surveyRepository.getVotedSurveys(userId, pageNumber * PAGE_SIZE);
+    }
+
+    @Override
+    public List<Trend> getPostedSurveys(int userId, int pageNumber) {
+        return surveyRepository.getPostedSurveys(userId, pageNumber * PAGE_SIZE);
+    }
+
+
 }

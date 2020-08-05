@@ -27,4 +27,9 @@ public class UserService implements IUserService {
         return repository.isUser(username, password);
     }
 
+
+    @Override
+    public User findById(int id) {
+        return repository.findById(id).get();
+    }
 }
