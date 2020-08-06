@@ -45,19 +45,19 @@ public interface SurveyRepository extends CrudRepository<Survey, Integer> {
     value = "WITH in_title AS (\n" +
             "   SELECT s.id, TRUE is_in_title\n" +
             "   FROM survey s\n" +
-            "   WHERE s.title LIKE %:search%\n" +
+            "   WHERE lower(s.title) LIKE %:search%\n" +
             "), in_tag AS (\n" +
             "   SELECT s.id, TRUE is_in_tag\n" +
             "   FROM survey s\n" +
             "   WHERE s.id IN (\n" +
             "       SELECT survey_id\n" +
             "       FROM survey_tag\n" +
-            "       WHERE survey_tag.tag LIKE %:search%\n" +
+            "       WHERE lower(survey_tag.tag) LIKE %:search%\n" +
             "   )\n" +
             "), in_explanation AS (\n" +
             "   SELECT s.id, TRUE is_in_explanation\n" +
             "   FROM survey s\n" +
-            "   WHERE s.explanation LIKE %:search%\n" +
+            "   WHERE lower(s.explanation) LIKE %:search%\n" +
             "), in_title_and_tag AS (\n" +
             "   SELECT \"id\", is_in_title, is_in_tag, FALSE is_in_explanation\n" +
             "   FROM in_title NATURAL JOIN in_tag\n" +

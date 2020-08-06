@@ -3,11 +3,9 @@ package com.pollit.server.controller;
 import com.pollit.server.model.User;
 import com.pollit.server.service.UserService;
 import org.springframework.data.repository.query.Param;
-import org.springframework.web.bind.annotation.CrossOrigin;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
+import java.util.HashMap;
 import java.util.List;
 
 @RestController
@@ -36,4 +34,23 @@ public class UserController {
         return userService.findById(id);
     }
 
+    @GetMapping("/followedUsers")
+    public List<User> findFollowedUsers(@Param("userId") int userId) {
+        return userService.findFollowedUsers(userId);
+    }
+
+    @PostMapping("/unFollow")
+    public void unFollow(@RequestBody HashMap req) {
+        userService.unFollow(req);
+    }
+
+    @GetMapping("/followers")
+    public List<User> findFollowers(@Param("userId") int userId) {
+        return userService.findFollowers(userId);
+    }
+
+    @PostMapping("/update")
+    public void updateUser(@RequestBody HashMap req) {
+        userService.update(req);
+    }
 }
