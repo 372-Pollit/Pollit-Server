@@ -6,11 +6,9 @@ import com.pollit.server.repository.SurveyRepository;
 import com.pollit.server.serviceinterface.ISurveyService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.repository.query.Param;
-import org.springframework.web.bind.annotation.CrossOrigin;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
+import java.util.HashMap;
 import java.util.List;
 
 @RestController
@@ -47,5 +45,15 @@ public class SurveyController {
     @GetMapping("/forUser")
     public List<Trend> getSurveysForUser(@Param("pageNumber") int pageNumber, @Param("userId") int userId) {
         return surveyService.getSurveysForUser(pageNumber, userId);
+    }
+
+    @GetMapping("/searchByCategory")
+    public List<Trend> searchByCategory(@Param("pageNumber") int pageNumber, @Param("categoryId") int categoryId) {
+        return surveyService.searchByCategory(pageNumber, categoryId);
+    }
+
+    @PostMapping("/post")
+    public void postSurvey(@RequestBody HashMap req) {
+        surveyService.post(req);
     }
 }
