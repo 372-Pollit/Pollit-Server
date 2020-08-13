@@ -37,4 +37,14 @@ public interface UserRepository extends CrudRepository<User, Integer> {
             "where f.followedId = :userId " +
             "order by f.date desc ")
     List<User> findFollowers(int userId);
+
+    @Query(value = "select u " +
+            "from User u " +
+            "where u.username = :username")
+    public User findByUsername(@Param("username") String username);
+
+    @Query(value = "select u " +
+            "from User u " +
+            "where u.email = :email")
+    public User findByEmail(@Param("email") String email);
 }
