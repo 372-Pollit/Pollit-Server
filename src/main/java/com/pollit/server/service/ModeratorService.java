@@ -6,6 +6,7 @@ import com.pollit.server.serviceinterface.IModeratorService;
 import com.pollit.server.util.Crud;
 import org.springframework.stereotype.Service;
 
+import java.util.HashMap;
 import java.util.List;
 
 @Service
@@ -25,6 +26,16 @@ public class ModeratorService extends Crud implements IModeratorService {
     @Override
     public Moderator isModerator(int id) {
         return repository.isModerator(id);
+    }
+
+    @Override
+    public void remove(HashMap req) {
+        repository.remove(Integer.valueOf(req.get("id").toString()));
+    }
+
+    @Override
+    public void add(HashMap req) {
+        repository.add(Integer.valueOf(req.get("id").toString()));
     }
 
 }

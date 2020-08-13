@@ -12,6 +12,10 @@ public interface IUserService {
 
     public List<User> findAll();
 
+    public List<User> getModerators();
+
+    public List<User> nonModeratorUsers();
+
     public User isUser(String username, String password);
 
     public Moderator isModerator(int id);

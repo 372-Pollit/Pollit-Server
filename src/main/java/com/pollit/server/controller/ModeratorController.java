@@ -3,11 +3,9 @@ package com.pollit.server.controller;
 import com.pollit.server.model.Moderator;
 import com.pollit.server.service.ModeratorService;
 import org.springframework.data.repository.query.Param;
-import org.springframework.web.bind.annotation.CrossOrigin;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
+import java.util.HashMap;
 import java.util.List;
 
 @RestController
@@ -29,6 +27,16 @@ public class ModeratorController {
     @GetMapping("/isModerator")
     public Moderator isModerator(@Param("id") int id) {
         return moderatorService.isModerator(id);
+    }
+
+    @PostMapping("/remove")
+    public void remove(@RequestBody HashMap req) {
+        moderatorService.remove(req);
+    }
+
+    @PostMapping("/add")
+    public void add(@RequestBody HashMap req) {
+        moderatorService.add(req);
     }
 
 }

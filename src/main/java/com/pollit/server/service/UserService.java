@@ -30,6 +30,16 @@ public class UserService extends Crud implements IUserService {
     }
 
     @Override
+    public List<User> getModerators() {
+        return (List<User>) repository.getModerators();
+    }
+
+    @Override
+    public List<User> nonModeratorUsers() {
+        return (List<User>) repository.nonModeratorUsers();
+    }
+
+    @Override
     public User isUser(String username, String password) {
         return repository.isUser(username, password);
     }

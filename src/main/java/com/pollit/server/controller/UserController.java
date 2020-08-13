@@ -26,6 +26,16 @@ public class UserController {
         return userService.findAll();
     }
 
+    @GetMapping("/getModerators")
+    public List<User> getModerators() {
+        return userService.getModerators();
+    }
+
+    @GetMapping("/nonModeratorUsers")
+    public List<User> nonModeratorUsers() {
+        return userService.nonModeratorUsers();
+    }
+
     @GetMapping("/isUser")
     public User isUser(@Param("username") String username, @Param("password") String password) {
         return userService.isUser(username, password);

@@ -15,6 +15,20 @@ import java.util.List;
 public interface UserRepository extends CrudRepository<User, Integer> {
 
     @Query(nativeQuery = true,
+            value = "select u.*\n" +
+                    "from \"user\" u, moderator m\n" +
+                    "where u.id = m.user_id")
+    public List<User> getModerators();
+
+    @Query(nativeQuery = true,
+            value = "select *\n" +
+                    "from \"user\" u\n" +
+                    "full outer join moderator m\n" +
+                    "on u.id = m.user_id\n" +
+                    "where user_id is null")
+    public List<User> nonModeratorUsers();
+
+    @Query(nativeQuery = true,
             value = "select *\n" +
                     "from \"user\"\n" +
                     "where username = :username and \"password\" = :password")
