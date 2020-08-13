@@ -13,4 +13,6 @@ public interface ISurveyService {
     public List<VotedSurveys> getVotedSurveys(int userId, int pageNumber);
 
     public List<Trend> getPostedSurveys(int userId, int pageNumber);
+
+    List<Trend> getSurveysForUser(int pageNumber, int userId);
 }

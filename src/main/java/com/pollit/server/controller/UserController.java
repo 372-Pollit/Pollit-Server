@@ -39,6 +39,16 @@ public class UserController {
         return userService.findById(id);
     }
 
+    @GetMapping("/findByUsername")
+    public User findUserByUsername(@Param("username") String username) {
+        return userService.findByUsername(username);
+    }
+
+    @GetMapping("/findByEmail")
+    public User findUserByEmail(@Param("email") String email) {
+        return userService.findByEmail(email);
+    }
+
     @GetMapping("/followedUsers")
     public List<User> findFollowedUsers(@Param("userId") int userId) {
         return userService.findFollowedUsers(userId);
@@ -67,5 +77,10 @@ public class UserController {
     @PostMapping("/update")
     public void updateUser(@RequestBody HashMap req) {
         userService.update(req);
+    }
+
+    @PostMapping("/signup")
+    public void signup(@RequestBody HashMap req) {
+        userService.save(req);
     }
 }

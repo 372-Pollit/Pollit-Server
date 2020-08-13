@@ -9,6 +9,8 @@ import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.sql.Date;
+import java.sql.Timestamp;
 import java.util.HashMap;
 import java.util.List;
 
@@ -40,6 +42,10 @@ public class UserService extends Crud implements IUserService {
     public User findById(int id) {
         return repository.findById(id).get();
     }
+
+    public User findByUsername(String username) { return repository.findByUsername(username); }
+
+    public User findByEmail(String email) { return repository.findByEmail(email); }
 
     @Override
     public List<User> findFollowedUsers(int userId) {
@@ -76,5 +82,28 @@ public class UserService extends Crud implements IUserService {
     public void update(HashMap req) {
         User u = repository.findById(Integer.valueOf(req.get("id").toString())).get();
         update(u, req);
+    }
+
+    @Modifying
+    @Transactional
+    public void save(HashMap req) {
+        User u = new User();
+        u.setUsername(req.get("username").toString());
+        System.out.println(req.get("username").toString());
+        u.setPassword(req.get("password").toString());
+        System.out.println(req.get("password").toString());
+        u.setEmail(req.get("email").toString());
+        System.out.println(req.get("email").toString());
+        u.setFirstName(req.get("first_name").toString());
+        System.out.println(req.get("first_name").toString());
+        u.setLastName(req.get("last_name").toString());
+        System.out.println(req.get("last_name").toString());
+        u.setSex(req.get("sex").toString());
+        System.out.println(req.get("sex").toString());
+        u.setBirthDate(Date.valueOf(req.get("birth_date").toString()));
+        System.out.println(req.get("birth_date").toString());
+        u.setRegisterDate(new Timestamp(System.currentTimeMillis()));
+        u.setBlocked(false);
+        repository.save(u);
     }
 }

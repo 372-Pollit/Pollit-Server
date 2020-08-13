@@ -176,4 +176,45 @@ public interface SurveyRepository extends CrudRepository<Survey, Integer> {
             "\n" +
             "\n")
     public List<Trend> getPostedSurveys(@Param("userId") int userId, @Param("pageNumber") int pageNumber);
+
+    @Query(nativeQuery = true,
+        value = "select s.id              as id,\n" +
+                "       s.title           as title,\n" +
+                "       u.username        as username,\n" +
+                "       s.explanation     as explanation,\n" +
+                "       s.post_date\\:\\:date as postDate,\n" +
+                "       s.due_date\\:\\:date  as dueDate,\n" +
+                "       tmp.vote_count    as voteCount,\n" +
+                "       tmp.comment_count as commentCount\n" +
+                "from (select distinct  q1.username, q1.survey_id,  q_vote.vote_count, q_comment.comment_count\n" +
+                "      from ((select 1 as flag, u.username, s.id as survey_id, s.post_date as \"date\", u2.username as user_or_category\n" +
+                "             from \"user\" u, follows f, survey s, \"user\" u2\n" +
+                "             where u.id = f.follower_id and u.id = :userId and s.poster_id = f.followed_id and u2.id = f.followed_id)\n" +
+                "            union\n" +
+                "            ((select 2 as flag, u.username, v.survey_id as survey_id, v.\"date\" as \"date\", u2.username\n" +
+                "              from \"user\" u, follows f, vote v, \"user\" u2\n" +
+                "              where u.id = f.follower_id and u.id = :userId and v.survey_id = f.followed_id and u2.id = f.followed_id)\n" +
+                "             union\n" +
+                "             (select 3 as flag, u.username, s.id as survey_id, s.post_date as \"date\", c.\"name\"\n" +
+                "              from \"user\" u, subs sub, category c, survey s, belongs b\n" +
+                "              where u.id = sub.user_id and u.id = :userId and c.id = sub.category_id\n" +
+                "                and s.id = b.survey_id and b.category_id = sub.category_id))\n" +
+                "            order by \"date\" desc) as q1,\n" +
+                "\n" +
+                "           (select s.id, count(v.id) as vote_count\n" +
+                "            from survey s, vote v\n" +
+                "            where s.id = v.survey_id\n" +
+                "            group by s.id) as q_vote,\n" +
+                "\n" +
+                "           (select s.id, count(c.id) as comment_count\n" +
+                "            from survey s, \"comment\" c\n" +
+                "            where s.id = c.survey_id\n" +
+                "            group by s.id) as q_comment\n" +
+                "      where q_comment.id = q1.survey_id and q_vote.id = q1.survey_id\n" +
+                "     ) tmp join survey s on tmp.survey_id = s.id join \"user\" u on s.poster_id = u.id\n" +
+                "order by s.due_date - current_date DESC, tmp.vote_count, tmp.comment_count " +
+                "limit 20 " +
+                "offset :pageNumber\n"
+    )
+    List<Trend> getSurveysForUser(@Param("pageNumber") int pageNumber, @Param("userId") int userId);
 }
