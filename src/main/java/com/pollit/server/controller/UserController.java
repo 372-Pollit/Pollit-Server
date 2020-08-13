@@ -29,6 +29,11 @@ public class UserController {
         return userService.isUser(username, password);
     }
 
+    @GetMapping("/search")
+    public List<User> search(@Param("searchString") String searchString, @Param("pageNumber") int pageNumber) {
+        return userService.search(searchString.substring(1), pageNumber);
+    }
+
     @GetMapping("/find")
     public User findUserById(@Param("id") int id) {
         return userService.findById(id);

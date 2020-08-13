@@ -6,6 +6,7 @@ import com.pollit.server.serviceinterface.IUserService;
 import com.pollit.server.util.Crud;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.jpa.repository.Modifying;
+import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -29,6 +30,11 @@ public class UserService extends Crud implements IUserService {
     @Override
     public User isUser(String username, String password) {
         return repository.isUser(username, password);
+    }
+
+    @Override
+    public List<User> search(String searchString, int pageNumber) {
+        return repository.search(searchString, pageNumber);
     }
 
 

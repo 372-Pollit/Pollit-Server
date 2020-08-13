@@ -16,7 +16,27 @@ public interface UserRepository extends CrudRepository<User, Integer> {
             value = "select *\n" +
                     "from \"user\"\n" +
                     "where username = :username and \"password\" = :password")
-    public User isUser(@Param("username") String username, @Param("password") String password );
+    public User isUser(@Param("username") String username, @Param("password") String password);
+
+    @Query(nativeQuery = true,
+            value = "select *\n" +
+                    "from \"user\"\n" +
+                    "where lower(username) like %:searchString%\n" +
+                    "union\n" +
+                    "(\n" +
+                    "   select *\n" +
+                    "   from \"user\"\n" +
+                    "   where lower(first_name) like %:searchString%\n" +
+                    ")\n" +
+                    "union\n" +
+                    "(\n" +
+                    "   select *\n" +
+                    "   from \"user\"\n" +
+                    "   where lower(last_name) like %:searchString%\n" +
+                    ")\n" +
+                    "limit 20\n" +
+                    "offset :pageNumber\n")
+    public List<User> search(@Param("searchString") String searchString, @Param("pageNumber") int pageNumber);
 
     @Query(nativeQuery = true,
     value = "SELECT u.*\n" +
