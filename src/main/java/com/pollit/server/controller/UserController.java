@@ -5,6 +5,7 @@ import com.pollit.server.model.Moderator;
 import com.pollit.server.model.User;
 import com.pollit.server.service.UserService;
 import org.springframework.data.repository.query.Param;
+import org.springframework.data.repository.query.Param;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.HashMap;
@@ -24,6 +25,11 @@ public class UserController {
     @GetMapping("/findAll")
     public List<User> findAll() {
         return userService.findAll();
+    }
+
+    @GetMapping("/find")
+    public User findUserById(@Param("id") int id) {
+        return userService.findById(id);
     }
 
     @GetMapping("/getModerators")
@@ -54,11 +60,6 @@ public class UserController {
     @GetMapping("/search")
     public List<User> search(@Param("searchString") String searchString, @Param("pageNumber") int pageNumber) {
         return userService.search(searchString.substring(1), pageNumber);
-    }
-
-    @GetMapping("/find")
-    public User findUserById(@Param("id") int id) {
-        return userService.findById(id);
     }
 
     @GetMapping("/findByUsername")

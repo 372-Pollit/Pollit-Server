@@ -30,6 +30,11 @@ public class UserService extends Crud implements IUserService {
     }
 
     @Override
+    public User findById(int id) {
+        return repository.findById(id).get();
+    }
+
+    @Override
     public List<User> getModerators() {
         return (List<User>) repository.getModerators();
     }
@@ -57,11 +62,6 @@ public class UserService extends Crud implements IUserService {
     @Override
     public List<User> search(String searchString, int pageNumber) {
         return repository.search(searchString.toLowerCase(), pageNumber);
-    }
-
-    @Override
-    public User findById(int id) {
-        return repository.findById(id).get();
     }
 
     @Override
