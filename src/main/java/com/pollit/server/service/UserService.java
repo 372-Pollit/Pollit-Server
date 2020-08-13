@@ -54,8 +54,10 @@ public class UserService extends Crud implements IUserService {
         return repository.findById(id).get();
     }
 
+    @Override
     public User findByUsername(String username) { return repository.findByUsername(username); }
 
+    @Override
     public User findByEmail(String email) { return repository.findByEmail(email); }
 
     @Override
@@ -95,6 +97,7 @@ public class UserService extends Crud implements IUserService {
         update(u, req);
     }
 
+    @Override
     @Modifying
     @Transactional
     public void save(HashMap req) {
@@ -117,4 +120,12 @@ public class UserService extends Crud implements IUserService {
         u.setBlocked(false);
         repository.save(u);
     }
+
+    @Override
+    public boolean isBlocked(int id) {
+        return repository.isBlocked(id);
+    }
+
+    @Override
+    public List<User> blockedUsers() { return repository.blockedUsers(); }
 }

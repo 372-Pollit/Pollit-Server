@@ -119,4 +119,14 @@ public interface UserRepository extends CrudRepository<User, Integer> {
             "from User u " +
             "where u.email = :email")
     public User findByEmail(@Param("email") String email);
+
+    @Query(value = "select u.blocked " +
+            "from User u " +
+            "where u.id = :id")
+    public boolean isBlocked(@Param("id") int id);
+
+    @Query(value = "select u " +
+            "from User u " +
+            "where u.blocked = true")
+    public List<User> blockedUsers();
 }
