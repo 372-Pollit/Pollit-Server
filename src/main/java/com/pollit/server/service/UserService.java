@@ -62,7 +62,7 @@ public class UserService extends Crud implements IUserService {
     public void follow(HashMap req) {
         int followerId = Integer.valueOf(req.get("followerId").toString());
         int followedId = Integer.valueOf(req.get("followedId").toString());
-        repository.unFollow(followerId, followedId);
+        repository.follow(followerId, followedId);
     }
 
     @Override
