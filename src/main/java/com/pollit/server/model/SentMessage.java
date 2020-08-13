@@ -10,7 +10,6 @@ public class SentMessage {
     private int receiverId;
     private int senderId;
     private String content;
-    private String topic;
     private Timestamp date;
     private User receiver;
     private User sender;
@@ -56,15 +55,6 @@ public class SentMessage {
         this.content = content;
     }
 
-    @Basic
-    @Column(name = "topic", nullable = true, length = 100)
-    public String getTopic() {
-        return topic;
-    }
-
-    public void setTopic(String topic) {
-        this.topic = topic;
-    }
 
     @Basic
     @Column(name = "date", nullable = false)
@@ -87,7 +77,6 @@ public class SentMessage {
         if (receiverId != that.receiverId) return false;
         if (senderId != that.senderId) return false;
         if (content != null ? !content.equals(that.content) : that.content != null) return false;
-        if (topic != null ? !topic.equals(that.topic) : that.topic != null) return false;
         if (date != null ? !date.equals(that.date) : that.date != null) return false;
 
         return true;
@@ -99,7 +88,6 @@ public class SentMessage {
         result = 31 * result + receiverId;
         result = 31 * result + senderId;
         result = 31 * result + (content != null ? content.hashCode() : 0);
-        result = 31 * result + (topic != null ? topic.hashCode() : 0);
         result = 31 * result + (date != null ? date.hashCode() : 0);
         return result;
     }

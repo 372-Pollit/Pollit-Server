@@ -18,6 +18,7 @@
         <class>com.pollit.server.model.SurveyTag</class>
         <class>com.pollit.server.model.User</class>
         <class>com.pollit.server.model.Vote</class>
+        <class>com.pollit.server.customModel.User</class>
         <properties>
             <property name="toplink.jdbc.url" value="jdbc:postgresql://localhost:5432/pollit"/>
             <property name="toplink.jdbc.driver" value="org.postgresql.Driver"/>

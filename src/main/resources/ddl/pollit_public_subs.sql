@@ -19,7 +19,6 @@ INSERT INTO public.subs (id, user_id, category_id, date) VALUES (19, 85, 9, '202
 INSERT INTO public.subs (id, user_id, category_id, date) VALUES (20, 76, 7, '2020-07-05 13:22:43.000000');
 INSERT INTO public.subs (id, user_id, category_id, date) VALUES (22, 68, 8, '2020-07-10 12:01:42.000000');
 INSERT INTO public.subs (id, user_id, category_id, date) VALUES (23, 59, 3, '2020-07-01 15:20:44.000000');
-INSERT INTO public.subs (id, user_id, category_id, date) VALUES (24, 2, 4, '2020-07-17 01:30:13.000000');
 INSERT INTO public.subs (id, user_id, category_id, date) VALUES (25, 75, 9, '2020-07-11 08:41:35.000000');
 INSERT INTO public.subs (id, user_id, category_id, date) VALUES (26, 9, 5, '2020-07-11 06:20:25.000000');
 INSERT INTO public.subs (id, user_id, category_id, date) VALUES (27, 3, 1, '2020-07-18 22:48:21.000000');
@@ -40,7 +39,6 @@ INSERT INTO public.subs (id, user_id, category_id, date) VALUES (41, 83, 1, '202
 INSERT INTO public.subs (id, user_id, category_id, date) VALUES (42, 76, 2, '2020-07-19 08:19:00.000000');
 INSERT INTO public.subs (id, user_id, category_id, date) VALUES (43, 15, 8, '2020-07-07 05:51:25.000000');
 INSERT INTO public.subs (id, user_id, category_id, date) VALUES (44, 65, 1, '2020-07-09 06:34:32.000000');
-INSERT INTO public.subs (id, user_id, category_id, date) VALUES (45, 2, 5, '2020-07-08 05:21:35.000000');
 INSERT INTO public.subs (id, user_id, category_id, date) VALUES (46, 3, 9, '2020-07-10 19:49:22.000000');
 INSERT INTO public.subs (id, user_id, category_id, date) VALUES (47, 26, 1, '2020-07-12 07:20:57.000000');
 INSERT INTO public.subs (id, user_id, category_id, date) VALUES (48, 65, 4, '2020-07-12 17:44:42.000000');
@@ -76,7 +74,6 @@ INSERT INTO public.subs (id, user_id, category_id, date) VALUES (78, 78, 2, '202
 INSERT INTO public.subs (id, user_id, category_id, date) VALUES (80, 93, 7, '2020-07-06 22:34:25.000000');
 INSERT INTO public.subs (id, user_id, category_id, date) VALUES (82, 51, 10, '2020-07-05 05:36:57.000000');
 INSERT INTO public.subs (id, user_id, category_id, date) VALUES (83, 36, 5, '2020-07-02 16:40:46.000000');
-INSERT INTO public.subs (id, user_id, category_id, date) VALUES (84, 1, 2, '2020-07-12 17:13:13.000000');
 INSERT INTO public.subs (id, user_id, category_id, date) VALUES (85, 48, 9, '2020-07-01 09:34:51.000000');
 INSERT INTO public.subs (id, user_id, category_id, date) VALUES (86, 60, 10, '2020-07-14 21:34:12.000000');
 INSERT INTO public.subs (id, user_id, category_id, date) VALUES (88, 9, 7, '2020-07-06 05:09:51.000000');
@@ -143,8 +140,6 @@ INSERT INTO public.subs (id, user_id, category_id, date) VALUES (162, 3, 6, '202
 INSERT INTO public.subs (id, user_id, category_id, date) VALUES (164, 76, 3, '2020-07-14 21:27:06.000000');
 INSERT INTO public.subs (id, user_id, category_id, date) VALUES (165, 61, 8, '2020-07-13 08:39:59.000000');
 INSERT INTO public.subs (id, user_id, category_id, date) VALUES (166, 37, 2, '2020-07-14 06:43:26.000000');
-INSERT INTO public.subs (id, user_id, category_id, date) VALUES (167, 2, 10, '2020-07-01 19:48:39.000000');
-INSERT INTO public.subs (id, user_id, category_id, date) VALUES (168, 2, 6, '2020-07-13 12:00:33.000000');
 INSERT INTO public.subs (id, user_id, category_id, date) VALUES (169, 71, 5, '2020-07-19 16:03:42.000000');
 INSERT INTO public.subs (id, user_id, category_id, date) VALUES (171, 85, 1, '2020-07-15 09:17:40.000000');
 INSERT INTO public.subs (id, user_id, category_id, date) VALUES (172, 41, 3, '2020-07-17 19:11:52.000000');
@@ -172,3 +167,8 @@ INSERT INTO public.subs (id, user_id, category_id, date) VALUES (196, 11, 9, '20
 INSERT INTO public.subs (id, user_id, category_id, date) VALUES (197, 16, 9, '2020-07-05 11:07:43.000000');
 INSERT INTO public.subs (id, user_id, category_id, date) VALUES (198, 91, 7, '2020-07-08 09:04:07.000000');
 INSERT INTO public.subs (id, user_id, category_id, date) VALUES (200, 85, 10, '2020-07-05 17:30:42.000000');
+INSERT INTO public.subs (id, user_id, category_id, date) VALUES (212, 1, 7, '2020-08-07 14:58:14.199000');
+INSERT INTO public.subs (id, user_id, category_id, date) VALUES (213, 1, 8, '2020-08-07 14:58:16.074000');
+INSERT INTO public.subs (id, user_id, category_id, date) VALUES (214, 1, 9, '2020-08-07 14:58:17.926000');
+INSERT INTO public.subs (id, user_id, category_id, date) VALUES (215, 1, 10, '2020-08-07 14:58:19.828000');
+INSERT INTO public.subs (id, user_id, category_id, date) VALUES (217, 1, 2, '2020-08-11 17:50:17.058000');

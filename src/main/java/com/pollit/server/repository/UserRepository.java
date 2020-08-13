@@ -72,4 +72,27 @@ public interface UserRepository extends CrudRepository<User, Integer> {
             "where f.followedId = :userId " +
             "order by f.date desc ")
     List<User> findFollowers(int userId);
+
+    @Query(nativeQuery = true,
+            value = "select u.*\n" +
+                    "\n" +
+                    "from \"user\" u\n" +
+                    "         join (select tmp.id, max(date) date\n" +
+                    "               from (\n" +
+                    "                        select u.id, sm.date\n" +
+                    "                        from \"user\" u\n" +
+                    "                                 join sent_message sm on u.id = sm.receiver_id\n" +
+                    "                        where sm.sender_id = :userId\n" +
+                    "                        union\n" +
+                    "                        select u.id, s.date\n" +
+                    "                        from \"user\" u\n" +
+                    "                                 join sent_message s on u.id = s.sender_id\n" +
+                    "                        where s.receiver_id = :userId\n" +
+                    "                    ) as tmp\n" +
+                    "               group by tmp.id\n" +
+                    ") tmp on u.id = tmp.id\n" +
+                    "order by tmp.date desc\n"
+    )
+    List<User> getMessagedUsers(@Param("userId") int userId);
+
 }
