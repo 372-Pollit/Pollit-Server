@@ -1,8 +1,9 @@
 package com.pollit.server.serviceinterface;
 
 
+import com.pollit.server.model.Admin;
+import com.pollit.server.model.Moderator;
 import com.pollit.server.model.User;
-import org.springframework.data.repository.query.Param;
 
 import java.util.HashMap;
 import java.util.List;
@@ -11,7 +12,15 @@ public interface IUserService {
 
     public List<User> findAll();
 
+    public List<User> getModerators();
+
+    public List<User> nonModeratorUsers();
+
     public User isUser(String username, String password);
+
+    public Moderator isModerator(int id);
+
+    public Admin isAdmin(int id);
 
     public List<User> search(String searchString, int pageNumber);
 

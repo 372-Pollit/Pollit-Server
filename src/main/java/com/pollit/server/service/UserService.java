@@ -1,10 +1,11 @@
 package com.pollit.server.service;
 
+import com.pollit.server.model.Admin;
+import com.pollit.server.model.Moderator;
 import com.pollit.server.model.User;
 import com.pollit.server.repository.UserRepository;
 import com.pollit.server.serviceinterface.IUserService;
 import com.pollit.server.util.Crud;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -29,8 +30,28 @@ public class UserService extends Crud implements IUserService {
     }
 
     @Override
+    public List<User> getModerators() {
+        return (List<User>) repository.getModerators();
+    }
+
+    @Override
+    public List<User> nonModeratorUsers() {
+        return (List<User>) repository.nonModeratorUsers();
+    }
+
+    @Override
     public User isUser(String username, String password) {
         return repository.isUser(username, password);
+    }
+
+    @Override
+    public Moderator isModerator(int id) {
+        return repository.isModerator(id);
+    }
+
+    @Override
+    public Admin isAdmin(int id) {
+        return repository.isAdmin(id);
     }
 
     @Override

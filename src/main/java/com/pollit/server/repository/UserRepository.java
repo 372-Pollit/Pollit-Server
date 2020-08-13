@@ -1,6 +1,8 @@
 package com.pollit.server.repository;
 
 
+import com.pollit.server.model.Admin;
+import com.pollit.server.model.Moderator;
 import com.pollit.server.model.User;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
@@ -13,10 +15,36 @@ import java.util.List;
 public interface UserRepository extends CrudRepository<User, Integer> {
 
     @Query(nativeQuery = true,
+            value = "select u.*\n" +
+                    "from \"user\" u, moderator m\n" +
+                    "where u.id = m.user_id")
+    public List<User> getModerators();
+
+    @Query(nativeQuery = true,
+            value = "select *\n" +
+                    "from \"user\" u\n" +
+                    "full outer join moderator m\n" +
+                    "on u.id = m.user_id\n" +
+                    "where user_id is null")
+    public List<User> nonModeratorUsers();
+
+    @Query(nativeQuery = true,
             value = "select *\n" +
                     "from \"user\"\n" +
                     "where username = :username and \"password\" = :password")
     public User isUser(@Param("username") String username, @Param("password") String password);
+
+    @Query(nativeQuery = true,
+            value = "select *\n" +
+                    "from moderator\n" +
+                    "where user_id = :id")
+    public Moderator isModerator(@Param("id") int id);
+
+    @Query(nativeQuery = true,
+            value = "select *\n" +
+                    "from \"admin\"\n" +
+                    "where user_id = :id")
+    public Admin isAdmin(@Param("id") int id);
 
     @Query(nativeQuery = true,
             value = "select *\n" +
