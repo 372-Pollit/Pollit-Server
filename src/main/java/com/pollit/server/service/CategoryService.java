@@ -3,7 +3,6 @@ package com.pollit.server.service;
 import com.pollit.server.model.Category;
 import com.pollit.server.repository.CategoryRepository;
 import com.pollit.server.serviceinterface.ICategoryService;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -21,4 +20,20 @@ public class CategoryService implements ICategoryService {
     public List<Category> findAll() {
         return (List<Category>) categoryRepository.findAll();
     }
+
+    @Override
+    public void remove(int categoryId) {
+        categoryRepository.remove(categoryId);
+    }
+
+    @Override
+    public void add(String categoryName) {
+        categoryRepository.add(categoryName);
+    }
+
+    @Override
+    public void update(int categoryId, String categoryName) {
+        categoryRepository.update(categoryId, categoryName);
+    }
+
 }

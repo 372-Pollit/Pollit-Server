@@ -3,7 +3,6 @@ package com.pollit.server.service;
 import com.pollit.server.model.Admin;
 import com.pollit.server.repository.AdminRepository;
 import com.pollit.server.serviceinterface.IAdminService;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -21,4 +20,10 @@ public class AdminService implements IAdminService {
     public List<Admin> findAll() {
         return (List<Admin>) repository.findAll();
     }
+
+    @Override
+    public Admin isAdmin(int id) {
+        return repository.isAdmin(id);
+    }
+
 }

@@ -1,5 +1,7 @@
 package com.pollit.server.controller;
 
+import com.pollit.server.model.Admin;
+import com.pollit.server.model.Moderator;
 import com.pollit.server.model.User;
 import com.pollit.server.service.UserService;
 import org.springframework.data.repository.query.Param;
@@ -27,6 +29,16 @@ public class UserController {
     @GetMapping("/isUser")
     public User isUser(@Param("username") String username, @Param("password") String password) {
         return userService.isUser(username, password);
+    }
+
+    @GetMapping("/isModerator")
+    public Moderator isModerator(@Param("id") int id) {
+        return userService.isModerator(id);
+    }
+
+    @GetMapping("/isAdmin")
+    public Admin isAdmin(@Param("id") int id) {
+        return userService.isAdmin(id);
     }
 
     @GetMapping("/search")

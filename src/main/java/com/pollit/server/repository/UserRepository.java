@@ -1,6 +1,8 @@
 package com.pollit.server.repository;
 
 
+import com.pollit.server.model.Admin;
+import com.pollit.server.model.Moderator;
 import com.pollit.server.model.User;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
@@ -17,6 +19,18 @@ public interface UserRepository extends CrudRepository<User, Integer> {
                     "from \"user\"\n" +
                     "where username = :username and \"password\" = :password")
     public User isUser(@Param("username") String username, @Param("password") String password);
+
+    @Query(nativeQuery = true,
+            value = "select *\n" +
+                    "from moderator\n" +
+                    "where user_id = :id")
+    public Moderator isModerator(@Param("id") int id);
+
+    @Query(nativeQuery = true,
+            value = "select *\n" +
+                    "from \"admin\"\n" +
+                    "where user_id = :id")
+    public Admin isAdmin(@Param("id") int id);
 
     @Query(nativeQuery = true,
             value = "select *\n" +
