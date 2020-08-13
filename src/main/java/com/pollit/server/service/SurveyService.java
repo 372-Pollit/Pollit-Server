@@ -40,5 +40,10 @@ public class SurveyService implements ISurveyService {
         return surveyRepository.getPostedSurveys(userId, pageNumber * PAGE_SIZE);
     }
 
+    @Override
+    public List<Trend> getSurveysForUser(int pageNumber, int userId) {
+        return surveyRepository.getSurveysForUser(pageNumber * PAGE_SIZE, userId);
+    }
+
 
 }

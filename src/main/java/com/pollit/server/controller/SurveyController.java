@@ -43,4 +43,9 @@ public class SurveyController {
     public List<Trend> getPostedSurveys(@Param("userId") int userId, @Param("pageNumber") int pageNumber) {
         return surveyService.getPostedSurveys(userId, pageNumber);
     }
+
+    @GetMapping("/forUser")
+    public List<Trend> getSurveysForUser(@Param("pageNumber") int pageNumber, @Param("userId") int userId) {
+        return surveyService.getSurveysForUser(pageNumber, userId);
+    }
 }

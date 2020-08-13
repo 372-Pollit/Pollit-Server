@@ -95,4 +95,14 @@ public interface UserRepository extends CrudRepository<User, Integer> {
     )
     List<User> getMessagedUsers(@Param("userId") int userId);
 
+
+    @Query(value = "select u " +
+            "from User u " +
+            "where u.username = :username")
+    public User findByUsername(@Param("username") String username);
+
+    @Query(value = "select u " +
+            "from User u " +
+            "where u.email = :email")
+    public User findByEmail(@Param("email") String email);
 }
