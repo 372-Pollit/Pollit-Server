@@ -98,4 +98,15 @@ public class SurveyService implements ISurveyService {
             surveyTagRepository.save(tag);
         }
     }
+
+    @Override
+    public Survey findById(int surveyId) {
+        return surveyRepository.findById(surveyId).get();
+    }
+
+    @Override
+    public List<SurveyOption> getOptions(int surveyId) {
+        return surveyRepository.getOptions(surveyId);
+    }
+
 }

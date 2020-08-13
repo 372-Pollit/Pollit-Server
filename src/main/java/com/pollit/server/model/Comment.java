@@ -91,7 +91,7 @@ public class Comment {
     }
 
     @Basic
-    @Column(name = "survey_id", nullable = false, insertable = false, updatable = false)
+    @Column(name = "survey_id", nullable = false)
     public int getSurveyId() {
         return surveyId;
     }

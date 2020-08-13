@@ -2,6 +2,8 @@ package com.pollit.server.serviceinterface;
 
 import com.pollit.server.customModel.Trend;
 import com.pollit.server.customModel.VotedSurveys;
+import com.pollit.server.model.Survey;
+import com.pollit.server.model.SurveyOption;
 
 import java.util.HashMap;
 import java.util.List;
@@ -21,4 +23,7 @@ public interface ISurveyService {
 
     void post(HashMap req);
 
+    Survey findById(int surveyId);
+
+    List<SurveyOption> getOptions(int surveyId);
 }

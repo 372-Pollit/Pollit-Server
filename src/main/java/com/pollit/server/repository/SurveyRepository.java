@@ -3,6 +3,7 @@ package com.pollit.server.repository;
 import com.pollit.server.customModel.Trend;
 import com.pollit.server.customModel.VotedSurveys;
 import com.pollit.server.model.Survey;
+import com.pollit.server.model.SurveyOption;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.data.repository.query.Param;
@@ -250,4 +251,12 @@ public interface SurveyRepository extends CrudRepository<Survey, Integer> {
                     "limit 20\n" +
                     "offset :pageNumber")
     List<Trend> searchByCategory(@Param("categoryId") int categoryId, @Param("pageNumber") int pageNumber);
+
+    @Query(
+            value = "select so " +
+                    "from SurveyOption so " +
+                    "where so.surveyId = :surveyId " +
+                    "order by so.id"
+    )
+    List<SurveyOption> getOptions(int surveyId);
 }

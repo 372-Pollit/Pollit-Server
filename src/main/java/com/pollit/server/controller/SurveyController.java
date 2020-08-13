@@ -2,6 +2,8 @@ package com.pollit.server.controller;
 
 import com.pollit.server.customModel.Trend;
 import com.pollit.server.customModel.VotedSurveys;
+import com.pollit.server.model.Survey;
+import com.pollit.server.model.SurveyOption;
 import com.pollit.server.repository.SurveyRepository;
 import com.pollit.server.serviceinterface.ISurveyService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -56,4 +58,15 @@ public class SurveyController {
     public void postSurvey(@RequestBody HashMap req) {
         surveyService.post(req);
     }
+
+    @GetMapping("/findById")
+    public Survey findById(@Param("surveyId") int surveyId) {
+        return surveyService.findById(surveyId);
+    }
+
+    @GetMapping("/options")
+    public List<SurveyOption> getOptions(@Param("surveyId") int surveyId) {
+        return surveyService.getOptions(surveyId);
+    }
+
 }
