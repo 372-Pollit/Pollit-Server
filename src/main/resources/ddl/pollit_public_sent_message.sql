@@ -1450,3 +1450,7 @@ Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed 
 INSERT INTO public.sent_message (id, receiver_id, sender_id, content, date) VALUES (500, 25, 10, 'Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.
 
 Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.', '2020-07-17 20:59:34.000000');
+INSERT INTO public.sent_message (id, receiver_id, sender_id, content, date) VALUES (501, 37, 1, 'deneme1', '2020-08-12 23:27:57.116000');
+INSERT INTO public.sent_message (id, receiver_id, sender_id, content, date) VALUES (502, 37, 1, 'asdfasdf', '2020-08-12 23:28:05.560000');
+INSERT INTO public.sent_message (id, receiver_id, sender_id, content, date) VALUES (503, 82, 1, 'asdfasdfasdfasdf', '2020-08-12 23:29:30.726000');
+INSERT INTO public.sent_message (id, receiver_id, sender_id, content, date) VALUES (504, 37, 1, 'merhaba', '2020-08-12 23:32:27.013000');

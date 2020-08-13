@@ -34,7 +34,7 @@ public class UserService extends Crud implements IUserService {
 
     @Override
     public List<User> search(String searchString, int pageNumber) {
-        return repository.search(searchString, pageNumber);
+        return repository.search(searchString.toLowerCase(), pageNumber);
     }
 
 

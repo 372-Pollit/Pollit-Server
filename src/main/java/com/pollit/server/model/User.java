@@ -3,7 +3,6 @@ package com.pollit.server.model;
 import javax.persistence.*;
 import java.sql.Date;
 import java.sql.Timestamp;
-import java.util.Collection;
 
 @Entity
 @Table(name = "user", schema = "public")
@@ -155,5 +154,4 @@ public class User {
         result = 31 * result + (isBlocked ? 1 : 0);
         return result;
     }
-
 }

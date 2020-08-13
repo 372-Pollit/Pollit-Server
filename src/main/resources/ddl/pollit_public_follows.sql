@@ -104,7 +104,6 @@ INSERT INTO public.follows (id, follower_id, followed_id, date) VALUES (103, 66,
 INSERT INTO public.follows (id, follower_id, followed_id, date) VALUES (104, 49, 75, '2020-07-11 17:43:30.000000');
 INSERT INTO public.follows (id, follower_id, followed_id, date) VALUES (105, 1, 100, '2020-07-05 18:03:28.000000');
 INSERT INTO public.follows (id, follower_id, followed_id, date) VALUES (106, 42, 98, '2020-07-06 11:23:37.000000');
-INSERT INTO public.follows (id, follower_id, followed_id, date) VALUES (107, 1, 59, '2020-07-16 15:28:58.000000');
 INSERT INTO public.follows (id, follower_id, followed_id, date) VALUES (108, 23, 64, '2020-07-08 05:22:17.000000');
 INSERT INTO public.follows (id, follower_id, followed_id, date) VALUES (109, 31, 98, '2020-07-12 18:57:17.000000');
 INSERT INTO public.follows (id, follower_id, followed_id, date) VALUES (110, 33, 69, '2020-07-19 03:04:08.000000');
@@ -223,7 +222,6 @@ INSERT INTO public.follows (id, follower_id, followed_id, date) VALUES (222, 19,
 INSERT INTO public.follows (id, follower_id, followed_id, date) VALUES (223, 76, 96, '2020-07-03 14:31:09.000000');
 INSERT INTO public.follows (id, follower_id, followed_id, date) VALUES (224, 72, 16, '2020-07-19 05:24:43.000000');
 INSERT INTO public.follows (id, follower_id, followed_id, date) VALUES (225, 83, 55, '2020-07-11 17:37:59.000000');
-INSERT INTO public.follows (id, follower_id, followed_id, date) VALUES (226, 1, 71, '2020-07-12 15:13:52.000000');
 INSERT INTO public.follows (id, follower_id, followed_id, date) VALUES (227, 90, 37, '2020-07-17 15:01:26.000000');
 INSERT INTO public.follows (id, follower_id, followed_id, date) VALUES (228, 57, 50, '2020-07-01 04:04:01.000000');
 INSERT INTO public.follows (id, follower_id, followed_id, date) VALUES (229, 88, 58, '2020-07-18 16:50:05.000000');
@@ -490,7 +488,6 @@ INSERT INTO public.follows (id, follower_id, followed_id, date) VALUES (489, 74,
 INSERT INTO public.follows (id, follower_id, followed_id, date) VALUES (490, 49, 16, '2020-07-05 01:08:34.000000');
 INSERT INTO public.follows (id, follower_id, followed_id, date) VALUES (491, 5, 15, '2020-07-19 07:32:39.000000');
 INSERT INTO public.follows (id, follower_id, followed_id, date) VALUES (492, 81, 5, '2020-07-17 18:57:57.000000');
-INSERT INTO public.follows (id, follower_id, followed_id, date) VALUES (493, 1, 71, '2020-07-03 01:31:13.000000');
 INSERT INTO public.follows (id, follower_id, followed_id, date) VALUES (494, 15, 53, '2020-07-18 17:47:22.000000');
 INSERT INTO public.follows (id, follower_id, followed_id, date) VALUES (495, 64, 12, '2020-07-17 19:03:49.000000');
 INSERT INTO public.follows (id, follower_id, followed_id, date) VALUES (496, 61, 22, '2020-07-13 14:51:24.000000');
@@ -547,7 +544,6 @@ INSERT INTO public.follows (id, follower_id, followed_id, date) VALUES (546, 66,
 INSERT INTO public.follows (id, follower_id, followed_id, date) VALUES (547, 78, 10, '2020-07-19 06:27:06.000000');
 INSERT INTO public.follows (id, follower_id, followed_id, date) VALUES (548, 15, 8, '2020-07-06 13:04:11.000000');
 INSERT INTO public.follows (id, follower_id, followed_id, date) VALUES (549, 24, 29, '2020-07-17 15:39:38.000000');
-INSERT INTO public.follows (id, follower_id, followed_id, date) VALUES (550, 1, 65, '2020-07-11 14:20:22.000000');
 INSERT INTO public.follows (id, follower_id, followed_id, date) VALUES (551, 80, 1, '2020-07-07 23:04:08.000000');
 INSERT INTO public.follows (id, follower_id, followed_id, date) VALUES (552, 9, 15, '2020-07-12 03:32:46.000000');
 INSERT INTO public.follows (id, follower_id, followed_id, date) VALUES (553, 31, 79, '2020-07-07 23:12:59.000000');
@@ -717,7 +713,6 @@ INSERT INTO public.follows (id, follower_id, followed_id, date) VALUES (716, 16,
 INSERT INTO public.follows (id, follower_id, followed_id, date) VALUES (717, 57, 1, '2020-07-04 20:46:35.000000');
 INSERT INTO public.follows (id, follower_id, followed_id, date) VALUES (718, 60, 26, '2020-07-14 06:02:22.000000');
 INSERT INTO public.follows (id, follower_id, followed_id, date) VALUES (719, 24, 62, '2020-07-08 20:54:34.000000');
-INSERT INTO public.follows (id, follower_id, followed_id, date) VALUES (720, 1, 67, '2020-07-18 16:25:01.000000');
 INSERT INTO public.follows (id, follower_id, followed_id, date) VALUES (721, 47, 36, '2020-07-18 18:36:15.000000');
 INSERT INTO public.follows (id, follower_id, followed_id, date) VALUES (722, 17, 90, '2020-07-05 11:34:22.000000');
 INSERT INTO public.follows (id, follower_id, followed_id, date) VALUES (723, 10, 93, '2020-07-19 23:04:44.000000');
@@ -741,7 +736,6 @@ INSERT INTO public.follows (id, follower_id, followed_id, date) VALUES (740, 72,
 INSERT INTO public.follows (id, follower_id, followed_id, date) VALUES (741, 56, 34, '2020-07-19 18:42:57.000000');
 INSERT INTO public.follows (id, follower_id, followed_id, date) VALUES (742, 85, 96, '2020-07-10 18:09:56.000000');
 INSERT INTO public.follows (id, follower_id, followed_id, date) VALUES (743, 64, 25, '2020-07-03 06:39:09.000000');
-INSERT INTO public.follows (id, follower_id, followed_id, date) VALUES (744, 1, 7, '2020-07-10 16:49:02.000000');
 INSERT INTO public.follows (id, follower_id, followed_id, date) VALUES (745, 20, 85, '2020-07-12 04:38:03.000000');
 INSERT INTO public.follows (id, follower_id, followed_id, date) VALUES (746, 10, 45, '2020-07-13 22:40:11.000000');
 INSERT INTO public.follows (id, follower_id, followed_id, date) VALUES (747, 18, 89, '2020-07-13 09:41:28.000000');
