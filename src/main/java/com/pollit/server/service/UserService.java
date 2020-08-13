@@ -6,7 +6,6 @@ import com.pollit.server.serviceinterface.IUserService;
 import com.pollit.server.util.Crud;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.jpa.repository.Modifying;
-import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -37,7 +36,6 @@ public class UserService extends Crud implements IUserService {
         return repository.search(searchString, pageNumber);
     }
 
-
     @Override
     public User findById(int id) {
         return repository.findById(id).get();
@@ -49,7 +47,19 @@ public class UserService extends Crud implements IUserService {
     }
 
     @Override
+    public boolean isXFollowingY(int xId, int yId) {
+        return repository.isXFollowingY(xId, yId);
+    }
+
+    @Override
     public void unFollow(HashMap req) {
+        int followerId = Integer.valueOf(req.get("followerId").toString());
+        int followedId = Integer.valueOf(req.get("followedId").toString());
+        repository.unFollow(followerId, followedId);
+    }
+
+    @Override
+    public void follow(HashMap req) {
         int followerId = Integer.valueOf(req.get("followerId").toString());
         int followedId = Integer.valueOf(req.get("followedId").toString());
         repository.unFollow(followerId, followedId);

@@ -44,9 +44,19 @@ public class UserController {
         return userService.findFollowedUsers(userId);
     }
 
+    @GetMapping("/isXFollowingY")
+    public boolean isXFollowingY(@Param("xId") int xId, @Param("yId") int yId) {
+        return userService.isXFollowingY(xId, yId);
+    }
+
     @PostMapping("/unFollow")
     public void unFollow(@RequestBody HashMap req) {
         userService.unFollow(req);
+    }
+
+    @PostMapping("/follow")
+    public void follow(@RequestBody HashMap req) {
+        userService.follow(req);
     }
 
     @GetMapping("/followers")

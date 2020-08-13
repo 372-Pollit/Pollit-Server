@@ -45,12 +45,27 @@ public interface UserRepository extends CrudRepository<User, Integer> {
             "ORDER BY f.date DESC\n")
     public List<User> findFollowedUsers(@Param("userId") int userId);
 
+    @Query(nativeQuery = true,
+            value = "select exists(\n" +
+                    "select u.*\n" +
+                    "from follows f join \"user\" u on f.followed_id = u.id\n" +
+                    "where f.follower_id = :xId and f.followed_id = :yId\n" +
+                    "order by f.date desc)")
+    public boolean isXFollowingY(@Param("xId") int xId, @Param("yId") int yId);
+
     @Transactional
     @Modifying
     @Query(value = "delete " +
             "from Follows " +
             "where followerId = :followerId and followedId = :followedId")
     void unFollow(@Param("followerId") int followerId, @Param("followedId") int followedId);
+
+    @Transactional
+    @Modifying
+    @Query(nativeQuery = true,
+            value = "insert into follows (follower_id, followed_id)\n" +
+            "values (:followerId, :followedId)")
+    void follow(@Param("followerId") int followerId, @Param("followedId") int followedId);
 
     @Query(value = "select u " +
             "from User u join Follows f on u.id = f.followerId " +

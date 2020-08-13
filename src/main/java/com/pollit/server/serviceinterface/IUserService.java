@@ -19,7 +19,11 @@ public interface IUserService {
 
     List<User> findFollowedUsers(int userId);
 
+    public boolean isXFollowingY(int xId, int yId);
+
     void unFollow(HashMap req);
+
+    void follow(HashMap req);
 
     List<User> findFollowers(int userId);
 
