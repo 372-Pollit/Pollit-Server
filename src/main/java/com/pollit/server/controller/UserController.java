@@ -105,4 +105,12 @@ public class UserController {
     public void signup(@RequestBody HashMap req) {
         userService.save(req);
     }
+
+    @GetMapping("/isBlocked")
+    public boolean isBlocked(@Param("id") int id) {
+        return userService.isBlocked(id);
+    }
+
+    @GetMapping("/blockedUsers")
+    public List<User> blockedUsers() { return userService.blockedUsers(); }
 }

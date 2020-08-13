@@ -32,4 +32,17 @@ public interface ModeratorRepository extends CrudRepository<Moderator, Integer> 
                     "values (:id)")
     public void add(@Param("id") int id);
 
+    @Transactional
+    @Modifying
+    @Query(nativeQuery = true,
+            value = "insert into blocked_user (moderator_id, user_id, is_blocked)\n" +
+                    "values (:moderatorId, :userId, true)")
+    public void blockUser(@Param("moderatorId") int moderatorId, @Param("userId") int userId);
+
+    @Transactional
+    @Modifying
+    @Query(nativeQuery = true,
+            value = "insert into blocked_user (moderator_id, user_id, is_blocked)\n" +
+                    "values (:moderatorId, :userId, false)")
+    public void unblockUser(@Param("moderatorId") int moderatorId, @Param("userId") int userId);
 }

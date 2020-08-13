@@ -16,4 +16,8 @@ public interface IModeratorService {
 
     public void add(HashMap req);
 
+    void blockUser(HashMap req);
+
+    void unblockUser(HashMap req);
+
 }

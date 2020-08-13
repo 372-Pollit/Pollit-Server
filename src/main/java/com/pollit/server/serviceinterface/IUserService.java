@@ -26,6 +26,10 @@ public interface IUserService {
 
     User findById(int id);
 
+    User findByUsername(String username);
+
+    User findByEmail(String email);
+
     List<User> findFollowedUsers(int userId);
 
     public boolean isXFollowingY(int xId, int yId);
@@ -37,4 +41,10 @@ public interface IUserService {
     List<User> findFollowers(int userId);
 
     void update(HashMap req);
+
+    void save(HashMap req);
+
+    boolean isBlocked(int id);
+
+    List<User> blockedUsers();
 }
